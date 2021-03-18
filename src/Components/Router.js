@@ -5,6 +5,7 @@ import App from '../page/Home/App';
 // import  Form  from '../Components/Form';
 // import { Error } from '../Components/Error';
 import NavbarLogo from '../Components/Navbar'
+import Slider  from './Banner/Slider'
     
 function Router() {
     return(
@@ -14,6 +15,7 @@ function Router() {
                 {/* <Route  path='/Header' component={Header} />
                 <Route  path='/Form' component={Form} /> */}
                 <Route  path='/NavbarLogo' component={NavbarLogo} />
+                <Route  path='/Slider' component={Slider} />
                 {/* <Route component={Error} /> */}
             </Switch>
         </BrowserRouter>

@@ -9,7 +9,7 @@ import { GlobalStyle } from '../../Components/GloblaStyle';
 // import Form from '../../Components/Form'
 // import { Footer } from '../../Components/Footer'
 import NavbarLogo from '../../Components/Navbar/index';
-
+import Slider from '../../Components/Banner/Slider';
 
 
 
@@ -18,6 +18,7 @@ function App() {
     <div className="App">
       <GlobalStyle />
       <NavbarLogo />
+      <Slider />
       {/* <Hiro />
       <Features />
       <ProtoAbouts
