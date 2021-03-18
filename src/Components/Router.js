@@ -7,6 +7,7 @@ import App from '../page/Home/App';
 import NavbarLogo from '../Components/Navbar';
 import Slider  from './Banner/Slider';
 import { Hiro } from '../Components/Hiro'
+import { WeIps } from './WeIps'
     
 function Router() {
     return(
@@ -18,6 +19,7 @@ function Router() {
                 <Route  path='/NavbarLogo' component={NavbarLogo} />
                 <Route  path='/Slider' component={Slider} />
                 <Route  path='/Hiro' component={Hiro} />
+                <Route  path='/WeIps' component={WeIps} />
 
                 {/* <Route component={Error} /> */}
             </Switch>

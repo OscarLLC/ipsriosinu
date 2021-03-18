@@ -10,7 +10,7 @@ export const ContentMenu = styled.nav`
     align-items: center;
     font-size: 1.2rem;
     z-index: 50;
-    @media(max-width: 767px){
+    @media(max-width: 1080px){
         position: relative;
         justify-content: space-between;
 
@@ -20,7 +20,7 @@ export const ContentMenu = styled.nav`
 .navbarlogo{
     width: 140px;
     height: 88px;
-    @media(max-width: 767px){
+    @media(max-width: 1080px){
         position: absolute;
         top: 0px;
         left: 0px;
@@ -42,11 +42,11 @@ export const ContentMenu = styled.nav`
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
-    @media(max-width: 767px){
+    @media(max-width: 1080px){
         display: block;
         fle-display: column;
         width: 100%;
-        height: 500px;
+        height: 100vh;
         position: absolute;
         top: 120px;
         left:-100%;
@@ -72,7 +72,7 @@ export const ContentMenu = styled.nav`
     padding:20px;
     text-decoration: none;
     cursor: pointer;
-    @media(max-width: 767px){
+    @media(max-width: 1080px){
         text-align: center;
         padding: 2rem;
         width: 100%;
@@ -89,7 +89,7 @@ export const ContentMenu = styled.nav`
 
 .menu-icon{
     margin-right: 20px;
-        @media(min-width: 767px){
+        @media(min-width: 1080px){
         display: none;
         position: absolute;
         top: 18px;
