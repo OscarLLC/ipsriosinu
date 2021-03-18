@@ -32,19 +32,19 @@ class Navbar extends Component{
                             </div>
                             <ul className={this.state.clickend ? 'subItems active' : 'subItems'}>
                                 <div className="content-links">
-                                    <Link to="/" className="links">Home</Link>
+                                    <Link to="/" className="links">Inicio</Link>
                                 </div>
                                 <div className="content-links">
-                                    <Link to="/" className="links">Proyects</Link>
+                                    <Link to="/" className="links">Nosotros</Link>
                                 </div>
                                 <div className="content-links">
-                                    <Link to="/" className="links">Features</Link>
+                                    <Link to="/" className="links">Profesionales de la Salud</Link>
                                 </div>
                                 <div className="content-links">
-                                    <Link to="/" className="links">Fqa</Link>
+                                    <Link to="/" className="links">Servicios</Link>
                                 </div>
                                 <div className="content-links">
-                                    <Link to="/Form" className="links">Contact</Link>
+                                    <Link to="/Form" className="links">Contactanos</Link>
                                 </div>
                             </ul>
                         </nav>

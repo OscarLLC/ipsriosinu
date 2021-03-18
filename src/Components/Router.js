@@ -4,8 +4,9 @@ import App from '../page/Home/App';
 // import Header from '../Components/Header';
 // import  Form  from '../Components/Form';
 // import { Error } from '../Components/Error';
-import NavbarLogo from '../Components/Navbar'
-import Slider  from './Banner/Slider'
+import NavbarLogo from '../Components/Navbar';
+import Slider  from './Banner/Slider';
+import { Hiro } from '../Components/Hiro'
     
 function Router() {
     return(
@@ -16,6 +17,8 @@ function Router() {
                 <Route  path='/Form' component={Form} /> */}
                 <Route  path='/NavbarLogo' component={NavbarLogo} />
                 <Route  path='/Slider' component={Slider} />
+                <Route  path='/Hiro' component={Hiro} />
+
                 {/* <Route component={Error} /> */}
             </Switch>
         </BrowserRouter>

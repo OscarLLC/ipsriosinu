@@ -10,6 +10,7 @@ import { GlobalStyle } from '../../Components/GloblaStyle';
 // import { Footer } from '../../Components/Footer'
 import NavbarLogo from '../../Components/Navbar/index';
 import Slider from '../../Components/Banner/Slider';
+import { Hiro } from '../../Components/Hiro'
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <GlobalStyle />
       <NavbarLogo />
       <Slider />
+      <Hiro />
       {/* <Hiro />
       <Features />
       <ProtoAbouts
