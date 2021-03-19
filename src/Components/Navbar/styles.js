@@ -58,6 +58,7 @@ export const ContentMenu = styled.nav`
 
 .subItems.active{
     background-color: #26b4c0;
+    height: 100vh;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
