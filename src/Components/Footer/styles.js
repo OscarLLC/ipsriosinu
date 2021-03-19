@@ -62,6 +62,9 @@ import styled from 'styled-components'
         color: white;
         font-weight:600;
         font-size: 45px;
+        @media (max-width:480px){
+            font-size: 35px;
+        }
     }
 
     .sub-redes:hover{
