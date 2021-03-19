@@ -53,6 +53,9 @@ export const ContentMenu = styled.nav`
         opacity: 1;
         transition: all 0.5s ease;
     }
+    @media(max-width:1000px){
+        padding-top: 75px;
+    }
 
 }
 
