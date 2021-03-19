@@ -24,7 +24,7 @@ export const ContentHiro = styled.section`
             height: 222px;
         }
         @media (max-width: 800px){
-            width: 100%;
+            width: 90%;
             height: 120px;
             margin: 5px;
         }
