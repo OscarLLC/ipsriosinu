@@ -7,27 +7,28 @@ import { AiOutlineInstagram,
 
 
 
+
 export const Footer = () => {
     return(
         <ContentFooter>
             <div className="content-redes">
                 <div className="sub-redes">
-                    <AiOutlineInstagram className="redes" />
+                    <a href="https://www.instagram.com/ips_rio_sinu__/" target="_blank"><AiOutlineInstagram className="redes" /></a>
                 </div>
                 <div className="sub-redes">
-                    <AiOutlineTwitter className="redes" />
+                    <a href="https://twitter.com/ipsriosinu" target="_blank"><AiOutlineTwitter className="redes" /></a>
                 </div>
                 <div className="sub-redes">
-                    <AiOutlineWhatsApp className="redes" />
+                    <a href="https://twitter.com/ipsriosinu" target="_blank"><AiOutlineWhatsApp className="redes" /></a>
                 </div>
                 <div className="sub-redes">
-                    <AiOutlineFacebook className="redes" />
+                    <a href="https://www.facebook.com/IPS-RIO-SINU-104115241759477" target="_blank"><AiOutlineFacebook className="redes" /></a>
                 </div>
             </div>
             <div className="sub-footer">
                 <p>© Copyright 2021 – Todos los derechos reservados</p><br />
                 <p>CR 7 No 35-43 BARRIO LA CEIBA <br /> MONTERIA-CORDOBA</p><br />
-                <p><strong> Telefonos: 314 814 08 38, Fax: 314 814 08 38</strong></p>
+                <p><strong> Telefonos: 314 814 08 38 <br /> Fax: 314 814 08 38</strong></p>
                 <p>Correo:ipsriosinu@gmail.com</p>
             </div>
         </ContentFooter>

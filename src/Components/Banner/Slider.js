@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './styles.css'
+import { ContentSlider } from './styles'
 import { GlobalStyle } from '../GloblaStyle'
 import ImageComp from '../Banner/ImageSlider'
 import Image1 from '../../assets/image_01.jpg'
@@ -31,7 +31,7 @@ function Slider() {
   return(
     <React.Fragment>
       <GlobalStyle />
-      <div className="slider">
+      <ContentSlider>
         {
           sliderArra.map((item, index)=>{
             return(
@@ -42,7 +42,7 @@ function Slider() {
           })}
           <button id="goLeft" onClick={goLeft}><FaArrowLeft className="arrows" /></button>
           <button id="goRight" onClick={goRight}><FaArrowRight className="arrows" /></button>
-      </div>
+      </ContentSlider>
     </React.Fragment>
   )
 }

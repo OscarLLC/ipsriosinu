@@ -74,7 +74,7 @@ export const ContentMenu = styled.nav`
     cursor: pointer;
     @media(max-width: 1080px){
         text-align: center;
-        padding: 2rem;
+        padding: 15px;
         width: 100%;
         display: table;
     }

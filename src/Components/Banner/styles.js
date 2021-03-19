@@ -1,4 +1,6 @@
-.slider{
+import styled from 'styled-components'
+
+ export const ContentSlider = styled.section`
   position: relative;
   width: 100%;
   min-height: 350px;
@@ -8,7 +10,7 @@
   display: flex;
   align-items: flex-start;
   overflow: hidden;
-}
+  
 
 .slide{
   position: relative;
@@ -57,8 +59,12 @@
 
 .images-slider{
   width: 100%;
-  max-height: 350px;
+  max-height: 455px ;
   object-fit: cover;
+  min-height: auto;
+  @media(max-width: 1000px){
+    max-height: 340px;
+  }
 }
 
 .arrows{
@@ -66,3 +72,5 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+`;

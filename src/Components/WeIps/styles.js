@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContentWeIps = styled.nav`
-    margin: 20px 0px;
+    margin: 60px 0px;
     display: flex;
     @media (max-width:780px){
         display: block;
@@ -9,6 +9,10 @@ export const ContentWeIps = styled.nav`
 
     .description-weips{
         margin: 35px;
+        
+        @media(max-width: 480px){
+            margin-top: -33px;
+        }
     }
 
     p{
