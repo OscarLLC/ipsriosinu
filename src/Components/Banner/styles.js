@@ -32,6 +32,7 @@ import styled from 'styled-components'
     border: none;
     outline: none;
     transition: 0.5s;
+    cursor: pointer;
 
 }
 /* 
@@ -51,6 +52,8 @@ import styled from 'styled-components'
   border: none;
   outline: none;
   transition: 0.5s;
+  cursor: pointer;
+
 }
 
 /* #goRight:hover{
@@ -70,7 +73,15 @@ import styled from 'styled-components'
 .arrows{
   color: white;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 300;
+  height:35px;
+  width: 35px;
+  background-color: #4e4949;
+  border-radius: 50%;
+}
+
+.arrows:hover{
+  background-color: #332f2f;
 }
 
 `;

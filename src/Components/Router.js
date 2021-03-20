@@ -6,7 +6,8 @@ import Slider  from './Banner/Slider';
 import { Hiro } from '../Components/Hiro';
 import { WeIps } from './WeIps';
 import { Footer } from './Footer';
-import { Nosotros } from '../page/Nosotros'
+import { Nosotros } from '../page/Nosotros';
+import ContactUs from '../Components/ContactForm';
 
 
     
@@ -21,6 +22,7 @@ function Router() {
                 <Route  path='/WeIps' component={WeIps} />
                 <Route  path='/Footer' component={Footer} />
                 <Route  path='/Nosotros' component={Nosotros} />
+                <Route  path='/ContactUs' component={ContactUs} />
                 {/* <Route component={Error} /> */}
             </Switch>
         </BrowserRouter>

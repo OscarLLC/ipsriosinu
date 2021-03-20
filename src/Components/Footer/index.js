@@ -2,7 +2,7 @@ import React from 'react'
 import { ContentFooter } from './styles'
 import { AiOutlineInstagram,
          AiOutlineTwitter,
-         AiOutlineWhatsApp,
+         AiOutlineYoutube,
          AiOutlineFacebook } from "react-icons/ai";
 
 
@@ -19,7 +19,7 @@ export const Footer = () => {
                     <a href="https://twitter.com/ipsriosinu" target="_blank"><AiOutlineTwitter className="redes" /></a>
                 </div>
                 <div className="sub-redes">
-                    <a href="https://twitter.com/ipsriosinu" target="_blank"><AiOutlineWhatsApp className="redes" /></a>
+                    <a href="https://www.youtube.com/channel/UC6RA7TytQ5zKNRnI_YGyRBw" target="_blank"><AiOutlineYoutube className="redes" /></a>
                 </div>
                 <div className="sub-redes">
                     <a href="https://www.facebook.com/IPS-RIO-SINU-104115241759477" target="_blank"><AiOutlineFacebook className="redes" /></a>
