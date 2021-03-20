@@ -3,13 +3,15 @@ import styled from 'styled-components';
 export const ContainerForm = styled.section`
     background-color: white;
     padding-bottom: 70px;
+    
 .content-main-form{
     display: flex;
     justify-content: center;
     align-items: center;
 }
     .sub-form{
-        background-color: #f1f2f5;
+        background-color: #26b4c0;
+        margin-top: 80px;
         width: 60%;
         padding: 15px;
         display: flex;
@@ -55,13 +57,18 @@ export const ContainerForm = styled.section`
     }
 
     .input-celular{
-        width:100%;
-        height: 30px;
+        width: 100%;
+        height: 45px;
+        border-radius: 5px;
+        border: none;
     }
 
     .inputs-one{
         width: 100%;
-        height: 30px;
+        height: 45px;
+        border-radius: 5px;
+        border: none;
+        padding-left: 5px;
     }
 
     .text-tarea{
@@ -72,5 +79,52 @@ export const ContainerForm = styled.section`
     .campu-description {
         width: 100%;
         height: 140px;
+        border-radius: 5px;
+        border: none;
+        padding: 5px 0px 0px 5px;
+    }
+
+    .content-button-submit{
+        width: 110px;
+        border-radius: 20px;
+        background-color: #00d3b5;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        @media(max-width: 790px){
+            width: 100%;
+            
+        }
+
+        .content-button-submit:hover{
+            background-color: #208475;
+        }
+    }
+
+    .enviar{
+        width: 110px;
+        color: white;
+        padding: 15px;
+      border-radius: 10px;
+        background-color: #00d3b5;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .enviar:hover{
+        background-color: #208475;
+    }
+
+    h2{
+        color: white;
+    }
+
+    label{
+        font-size: 20px;
+        color: white;
     }
 `;

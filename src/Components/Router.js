@@ -7,7 +7,8 @@ import { Hiro } from '../Components/Hiro';
 import { WeIps } from './WeIps';
 import { Footer } from './Footer';
 import { Nosotros } from '../page/Nosotros';
-import ContactUs from '../Components/ContactForm';
+import { Contactanos } from '../page/Contactanos';
+import ContactUs from '../Components/ContactForm'
 
 
     
@@ -23,6 +24,7 @@ function Router() {
                 <Route  path='/Footer' component={Footer} />
                 <Route  path='/Nosotros' component={Nosotros} />
                 <Route  path='/ContactUs' component={ContactUs} />
+                <Route  path='/Contactanos' component={Contactanos} />
                 {/* <Route component={Error} /> */}
             </Switch>
         </BrowserRouter>

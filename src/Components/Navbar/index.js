@@ -44,7 +44,7 @@ class Navbar extends Component{
                                     <Link to="/" className="links">Servicios</Link>
                                 </div>
                                 <div className="content-links">
-                                    <Link to="/Form" className="links">Contactanos</Link>
+                                    <Link to="/Contactanos" className="links">Contactanos</Link>
                                 </div>
                             </ul>
                         </nav>
