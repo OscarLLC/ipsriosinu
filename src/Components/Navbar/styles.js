@@ -20,6 +20,7 @@ export const ContentMenu = styled.nav`
 .navbarlogo{
     width: 140px;
     height: 88px;
+    border-radius: 10px;
     @media(max-width: 1080px){
         position: absolute;
         top: 0px;

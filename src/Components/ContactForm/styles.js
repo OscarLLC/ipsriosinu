@@ -105,7 +105,7 @@ export const ContainerForm = styled.section`
         width: 110px;
         color: white;
         padding: 15px;
-      border-radius: 10px;
+        border-radius: 10px;
         background-color: #00d3b5;
         display: flex;
         justify-content: center; 
@@ -113,6 +113,9 @@ export const ContainerForm = styled.section`
         border: none;
         cursor: pointer;
         font-size: 20px;
+        @media (max-width: 790px){
+            width: 100%;
+        }
     }
 
     .enviar:hover{
@@ -126,5 +129,24 @@ export const ContainerForm = styled.section`
     label{
         font-size: 20px;
         color: white;
+    }
+
+    .text-contact{
+        color: #2991D6;
+    }
+
+    .content-dates{
+        text-align: center;
+        width: 80%;
+        padding: 60px 10% 45px;
+        border: 3px solid #2991D6;
+        margin: auto;
+        margin-top: 70px;
+        @media (max-width: 500px){
+            padding: 25px;
+            width: 95%;
+            font-size: 15px;
+            padding: 15px 5px;
+        }
     }
 `;
