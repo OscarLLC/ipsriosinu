@@ -1,6 +1,7 @@
 import emailjs from 'emailjs-com'; 
 import React  from 'react'
 import { ContainerForm } from './styles';
+import { PostContact } from '../PostContact'
 
 
 
@@ -21,14 +22,33 @@ export default function ContactUs() {
     return(
         <ContainerForm>
             <div className="content-dates">
-                <h2 className="text-contact">
-                    CONTACTOS <br /><br />
-                    IPS RIO SINU S.A.S <br />
-                    <strong>Nit: 901083462-3</strong><br />
-                    Direccion: CRA 7 No 35-43 BARRIO LA CEIBA <br /> MONTERIA-CORDOBA <br />
-                    Telefonos: 314 814 08 38 <br /> 314 814 0838 <br />
-                    Correos: ipsriosinu2020@gmail.com
-                </h2>
+            <PostContact 
+                    title="AGENDA TU CITA MONTERIA"
+                    titlecall="LLAMA A NUESTRAS LINEAS"
+                    number="314 814 0838 - 304 254 1389" 
+                    numbertwo ="322 574 2380 - 304 316 7496" 
+                    numberthere="304 316 7497"
+                    email="ipsriosinumontelibano@gmail.com"
+                />
+                <PostContact 
+                    title="AGENDA TU CITA LORICA"
+                    titlecall="LLAMA A NUESTRA LINEA"
+                    number="322 582 8294"
+                    email="ipsriosinulorica@gmail.com"
+                />
+                 <PostContact 
+                    title="AGENDA TU CITA MONTELIBANO"
+                    titlecall="LLAMA A NUESTRA LINEA"
+                    number="322 584 2018"
+                    email="ipsriosinumontelibano@gmail.com"
+                />
+                 <PostContact 
+                    title="AGENDA TU CITA TIERRALTA"
+                    titlecall="LLAMA A NUESTRA LINEA"
+                    number="322 584 3237"
+                    email="ipsriosinutierralta@gmail.com"
+                />
+                
             </div>
             <div className="content-main-form">
                 <div className="sub-form">

@@ -136,17 +136,18 @@ export const ContainerForm = styled.section`
     }
 
     .content-dates{
-        text-align: center;
-        width: 80%;
-        padding: 60px 10% 45px;
-        border: 3px solid #2991D6;
-        margin: auto;
-        margin-top: 70px;
-        @media (max-width: 500px){
-            padding: 25px;
-            width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+        width: 100%;
+        margin-top: 25px;
+        @media (max-width: 570px){
+            
+            width: 100%;
             font-size: 15px;
             padding: 15px 5px;
+            margin-top: 0;
         }
     }
 `;
