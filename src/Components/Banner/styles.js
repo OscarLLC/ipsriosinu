@@ -10,6 +10,7 @@ import styled from 'styled-components'
   display: flex;
   align-items: flex-start;
   overflow: hidden;
+ 
   
 
 .slide{
@@ -18,6 +19,7 @@ import styled from 'styled-components'
   height: 80%;
   transition: 0.5s;
   overflow: hidden;
+   
 
 }
 

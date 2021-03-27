@@ -106,7 +106,7 @@ export const ContainerForm = styled.section`
         color: white;
         padding: 15px;
         border-radius: 10px;
-        background-color: #00d3b5;
+        background-color: #0cff52;
         display: flex;
         justify-content: center; 
         align-items: center;

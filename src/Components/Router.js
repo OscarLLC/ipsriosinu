@@ -8,7 +8,8 @@ import { WeIps } from './WeIps';
 import { Footer } from './Footer';
 import { Nosotros } from '../page/Nosotros';
 import { Contactanos } from '../page/Contactanos';
-import ContactUs from '../Components/ContactForm'
+import ContactUs from '../Components/ContactForm';
+import { Error } from '../Components/Error'
 
 
     
@@ -25,7 +26,7 @@ function Router() {
                 <Route  path='/Nosotros' component={Nosotros} />
                 <Route  path='/ContactUs' component={ContactUs} />
                 <Route  path='/Contactanos' component={Contactanos} />
-                {/* <Route component={Error} /> */}
+                <Route component={Error} />
             </Switch>
         </BrowserRouter>
     )
