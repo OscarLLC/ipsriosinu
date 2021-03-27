@@ -3,7 +3,8 @@ import styled from 'styled-components'
 export const ContentMenu = styled.nav`
 
 .navbarItems{
-    background-color: #26b4c0;
+    /* background-color: #26b4c0; */
+    background-color: #007d87;
     height: 120px;
     display: flex;
     justify-content: center;
@@ -61,7 +62,8 @@ export const ContentMenu = styled.nav`
 }
 
 .subItems.active{
-    background-color: #26b4c0;
+    /* background-color: #26b4c0; */
+    background-color:#007d87;
     height: 100vh;
     left: 0;
     opacity: 1;

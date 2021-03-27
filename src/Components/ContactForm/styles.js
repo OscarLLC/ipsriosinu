@@ -10,7 +10,7 @@ export const ContainerForm = styled.section`
     align-items: center;
 }
     .sub-form{
-        background-color: #26b4c0;
+        background-color: #007d87;
         margin-top: 80px;
         width: 60%;
         padding: 15px;
