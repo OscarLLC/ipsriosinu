@@ -92,7 +92,7 @@ export default function ContactUs(){
                             >
                                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height:'100vh'}}>
                                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '150px', width: '250px', position: 'absolute'}}>
-                                <h3 style={{color: 'white', textAlign: 'center', padding: '10px'}}>Mensaje Enviado!</h3>
+                                <h3 style={{color: 'white', textAlign: 'center', padding: '15px'}}>Mensaje Enviado!</h3>
                                     <button style={{position: 'relative', backgroundColor: "#c2c2c2", padding: '10px',cursor: 'pointer'}} onClick={()=>abrirCerrarModal()} >X</button>
                                 </div>
                                 </div>

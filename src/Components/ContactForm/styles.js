@@ -150,14 +150,4 @@ export const ContainerForm = styled.section`
             margin-top: 0;
         }
     }
-
-    h3{
-        color: white
-    }
-
-    .content-text-modal{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 `;

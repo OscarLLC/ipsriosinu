@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const ContentPost = styled.div`
-    width: 30%;
+    width: 40%;
     height: 430px;
     background-color: white;
     text-align: center;
@@ -10,7 +10,12 @@ export const ContentPost = styled.div`
     box-shadow: 0 -1px 8px 0 rgb(0 0 0 / 40%);
     transition: 0.3s;
     border-radius: 10px;
-    @media(max-width: 600px){
+    @media(max-width: 1098px){
+        width: 70%;
+        height: 430px;
+        margin: 55px 10px;
+    }
+    @media(max-width: 700px){
         width: 100%;
         height: 430px;
         margin: 55px 10px;
