@@ -61,10 +61,14 @@ export const ContentPost = styled.div`
     };
 
     .footer{
-        padding: 6px 6px 13px 6px;
+        padding: 6px 6px 15px 6px;
         color: white;
         background-color: #007d87;
         border-radius: 0px 0px 10px 10px;
+        @media(max-width: 450px){
+           
+            padding: 6px 6px 40px 6px;
+        }
 
     }
 
