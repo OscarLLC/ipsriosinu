@@ -12,6 +12,8 @@ export const ContentMenu = styled.nav`
     font-size: 1.2rem;
     z-index: 50;
     width: 100%;
+       
+
     @media(max-width: 1080px){
         position: relative;
         justify-content: space-between;
@@ -47,7 +49,6 @@ export const ContentMenu = styled.nav`
     margin-right: 2rem;
     @media(max-width: 1080px){
         display: block;
-        fle-display: column;
         width: 100%;
         height: 100vh;
         position: absolute;
@@ -55,6 +56,7 @@ export const ContentMenu = styled.nav`
         left:-100%;
         opacity: 1;
         transition: all 0.5s ease;
+        
     }
     @media(max-width:1000px){
         padding-top: 75px;
@@ -70,9 +72,11 @@ export const ContentMenu = styled.nav`
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+ 
    
     @media(max-width:1000px){
         padding-top: 75px;
+
     }
     
 }

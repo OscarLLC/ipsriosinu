@@ -23,7 +23,7 @@ class Navbar extends Component{
             <React.Fragment>
                 <GlobalStyle />
                 <ContentMenu>
-                    <nav className="navbarItems">
+                    <nav className="navbarItems subItems.active">
                         <div>
                             <img className="navbarlogo" src={LogoIps} alt="LogoIpsRio" />
                         </div>

@@ -19,8 +19,8 @@ import styled from 'styled-components'
   height: 80%;
   transition: 0.5s;
   overflow: hidden;
-   
-
+  transform: scale(1.08);
+  
 }
 
 #goLeft{

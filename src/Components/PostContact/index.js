@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../assets/logo-mas.jpeg';
-import Phone from '../../assets/phone.jpeg';
+import PersonCalll from '../../assets/person-call.png';
 import { ContentPost } from './styles'
 
 
@@ -16,7 +16,7 @@ export const PostContact = (props) => {
                     <h1>{props.title}</h1>
                 </div>
                 <div>
-                    <img src={Phone} className="phone" />
+                    <img src={PersonCalll} className="phone" />
                 </div>
             </div>
                 <div className="footer">

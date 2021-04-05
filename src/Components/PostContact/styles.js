@@ -16,8 +16,8 @@ export const ContentPost = styled.div`
         margin: 55px 10px;
     }
     @media(max-width: 700px){
-        width: 100%;
-        height: 430px;
+        width: 95%;
+        height: 380px;
         margin: 55px 10px;
     }
 
@@ -51,7 +51,13 @@ export const ContentPost = styled.div`
 
     .phone{
         border-radius: 12px 12px 14px 12px;
-        width:100px;
+        width:160px;
+        @media(max-width: 470px){
+            width: 110px;
+        }
+        @media(max-width: 340px){
+            width: 85px;
+        }
     };
 
     .footer{
@@ -59,6 +65,7 @@ export const ContentPost = styled.div`
         color: white;
         background-color: #007d87;
         border-radius: 0px 0px 10px 10px;
+
     }
 
 `;

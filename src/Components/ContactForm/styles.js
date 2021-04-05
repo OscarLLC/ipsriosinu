@@ -143,7 +143,7 @@ export const ContainerForm = styled.section`
         width: 100%;
         margin-top: 25px;
         @media (max-width: 570px){
-            
+           
             width: 100%;
             font-size: 15px;
             padding: 15px 5px;
