@@ -1,32 +1,37 @@
 import emailjs from 'emailjs-com'; 
-import React  from 'react'
+import React, { useState }  from 'react';
+import ModalForm from '../ModalForm'
 import { ContainerForm } from './styles';
-import { PostContact } from '../PostContact'
+import { PostContact } from '../PostContact';
 
 
+export default function ContactUs(){
+        function sendEmail(e) {
+            e.preventDefault();
+        
+            emailjs.sendForm('service_yepwrco', 'template_sfdsfzc', e.target, 'user_gDBkfTieQRfwNi77nZAf6')
+              .then((result) => {
+                  console.log(result.text);
+              }, (error) => {
+                  console.log(error.text);
+              });
+              e.target.reset();
+            }
 
-export default function ContactUs() {
+            const [modal, setModal] = useState(false);
 
-    function sendEmail(e) {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_yepwrco', 'template_sfdsfzc', e.target, 'user_gDBkfTieQRfwNi77nZAf6')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-        e.target.reset();
-    }
-
-    return(
-        <ContainerForm>
+            const abrirCerrarModal = () => {
+                setModal(!modal)
+            }
+        
+        return(
+            <ContainerForm>
             <div className="content-dates">
             <PostContact 
                     title="AGENDA TU CITA MONTERIA"
                     titlecall="LLAMA A NUESTRAS LINEAS"
                     number="314 814 0838 - 304 254 1389" 
-                    numbertwo ="322 574 2380 - 304 316 7496" 
+                    numbertwo ="322 574 2388 - 304 316 7496" 
                     numberthere="304 316 7497"
                     email="ipsriosinumontelibano@gmail.com"
                 />
@@ -78,12 +83,35 @@ export default function ContactUs() {
                             <label>Mensaje: </label><br />
                             <textarea required className="campu-description" name="message" ></textarea> 
                         </div>
-                        <div className="content-button-submit">
-                            <input type="submit" className="enviar"value="Enviar" ></input>
+                        <div className="ccontent-button-submit">
+                            <button onClick={()=>abrirCerrarModal()} type="submit" className="enviar"value="" >Enviar</button>
+                            <div className="content-text-modal">
+                            <ModalForm
+                                open={modal}
+                                onClose={abrirCerrarModal}
+                            >
+                                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height:'100vh'}}>
+                                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '150px', width: '250px', position: 'absolute'}}>
+                                <h3 style={{color: 'white', textAlign: 'center', padding: '10px'}}>Mensaje Enviado!</h3>
+                                    <button style={{position: 'relative', backgroundColor: "#c2c2c2", padding: '10px',cursor: 'pointer'}} onClick={()=>abrirCerrarModal()} >X</button>
+                                </div>
+                                </div>
+                                
+
+                            </ModalForm>
+                            </div>
                         </div>
                     </form>
                 </div>
             </div>
         </ContainerForm>
-    )
-}
+
+        )
+    }
+
+
+
+
+    
+
+ 

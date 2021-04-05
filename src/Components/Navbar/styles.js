@@ -11,6 +11,7 @@ export const ContentMenu = styled.nav`
     align-items: center;
     font-size: 1.2rem;
     z-index: 50;
+    width: 100%;
     @media(max-width: 1080px){
         position: relative;
         justify-content: space-between;
@@ -69,6 +70,7 @@ export const ContentMenu = styled.nav`
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+   
     @media(max-width:1000px){
         padding-top: 75px;
     }

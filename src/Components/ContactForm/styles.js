@@ -106,7 +106,7 @@ export const ContainerForm = styled.section`
         color: white;
         padding: 15px;
         border-radius: 10px;
-        background-color: #0cff52;
+        background-color:#07a535;   
         display: flex;
         justify-content: center; 
         align-items: center;
@@ -119,7 +119,7 @@ export const ContainerForm = styled.section`
     }
 
     .enviar:hover{
-        background-color: #208475;
+        background-color: #0cff52;
     }
 
     h2{
@@ -149,5 +149,15 @@ export const ContainerForm = styled.section`
             padding: 15px 5px;
             margin-top: 0;
         }
+    }
+
+    h3{
+        color: white
+    }
+
+    .content-text-modal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 `;
