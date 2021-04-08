@@ -19,25 +19,21 @@ export const WeDescription = () => {
                 <div className="text-main-description-valores">
                     <h2>Mision</h2>
                         <p>
-                        Prestar servicios profesionales de intermediación
-                        por medio de una empresa digital, entre personas 
-                        naturales o jurídicas y abogados expertos en las 
-                        diferentes ramas del derecho, de manera responsable, 
-                        honesta, eficiente con enfoque de servicio al cliente
-                        con el apoyo de un equipo humano calificado y tecnología
-                        adecuada.
+                        En <strong>CENTRO DE ESPECIALISTAS RIO SINU</strong>, brindamos servicios
+                        de consultas médicas integrales y multidisciplinarias con 
+                        atención preferencial, a través de un equipo humano capacitado 
+                        y especialistas expertos, calidad en el servicio, valores y vocación 
+                        humana, para la satisfacción de nuestros usuarios, mejoramiento de su 
+                        condición de salud y calidad de vida tanto de ellos, como de sus familias.
                         </p>
                 </div>
                 <div className="text-main-description">
                     <h2>Vision</h2>
                         <p>
-                        Prestar servicios profesionales de intermediación
-                        por medio de una empresa digital, entre personas 
-                        naturales o jurídicas y abogados expertos en las 
-                        diferentes ramas del derecho, de manera responsable, 
-                        honesta, eficiente con enfoque de servicio al cliente
-                        con el apoyo de un equipo humano calificado y tecnología
-                        adecuada.
+                        El CENTRO DE ESPECIALISTAS RIO SINU será en 2025 reconocido a nival regional 
+                        como centro de referencia en consultas médica integrales y multidisciplinarias, 
+                        con despliegue institucional a lo largo de la región y con servicios de altos 
+                        estándares de calidad, crecimiento integral y en servicios complementarios.
                         </p>
                 </div>
                 <div className="text-main-description">

@@ -33,7 +33,7 @@ export default function ContactUs(){
                     number="314 814 0838 - 304 254 1389" 
                     numbertwo ="322 574 2388 - 304 316 7496" 
                     numberthere="304 316 7497"
-                    email="ipsriosinumontelibano@gmail.com"
+                    email="ipsriosinumonteria@gmail.com"
                 />
                 <PostContact 
                     title="AGENDA TU CITA LORICA"
@@ -90,10 +90,30 @@ export default function ContactUs(){
                                 open={modal}
                                 onClose={abrirCerrarModal}
                             >
-                                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height:'100vh'}}>
-                                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '150px', width: '250px', position: 'absolute'}}>
-                                <h3 style={{color: 'white', textAlign: 'center', padding: '15px'}}>Mensaje Enviado!</h3>
-                                    <button style={{position: 'relative', backgroundColor: "#c2c2c2", padding: '10px',cursor: 'pointer'}} onClick={()=>abrirCerrarModal()} >X</button>
+                                <div style={{display: 'flex', 
+                                            justifyContent: 'center', 
+                                            alignItems: 'center', 
+                                            height:'100vh'}}>
+                                <div style={
+                                    {display: 'flex',
+                                     justifyContent: 'center',
+                                    alignItems: 'center', 
+                                    height: '150px', 
+                                    width: '250px', 
+                                    position: 'absolute',
+                                    backgroundColor: 'white',
+                                    borderRadius: '5px'
+                                    }}>
+                                <h3 style={{color: 'white', 
+                                            textAlign: 'center', 
+                                            padding: '15px',
+                                            color: 'black'
+                                            }}>Mensaje Enviado!</h3>
+                                    <button style={{position: 'relative', 
+                                                    backgroundColor: "#c2c2c2", 
+                                                    padding: '10px',
+                                                    cursor: 'pointer'
+                                                }} onClick={()=>abrirCerrarModal()} >X</button>
                                 </div>
                                 </div>
                                 
