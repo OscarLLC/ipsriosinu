@@ -5,7 +5,7 @@ import Bounce from 'react-reveal/Bounce';
 export const WeDescription = () => {
     return(
         <ContentWD>
-            <Bounce top>
+            <Bounce left>
             <div className="text-main-description">
                 <p>Esta empresa surge en 2016 como un proyecto
                     tecnológico que desarrollara la creciente
