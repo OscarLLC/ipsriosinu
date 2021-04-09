@@ -1,13 +1,16 @@
 import React from 'react'
 import { ContentWeIps } from './styles'
 import ImageIps from '../../assets/image_ips_rio.png'
-import { Wrapper } from '../Wrapper'
+import { Wrapper } from '../Wrapper';
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 
 export const WeIps = () => {
     return(
         <Wrapper>
         <ContentWeIps> 
+            <Fade left>
             <div className="description-weips">
                 <h2>IPS RIO SINU</h2>
                 <p> Cuando invierte en su salud en nuestra Fundación, ayuda 
@@ -36,9 +39,12 @@ export const WeIps = () => {
                     comprometida con el bienestar de las personas.
                 </p>
             </div>
+            </Fade>
+            <Fade right>
             <div className="image-weips">
                 <img className="image-ips-rio" src={ImageIps} />
             </div>
+            </Fade>
         </ContentWeIps>
         </Wrapper>
     )

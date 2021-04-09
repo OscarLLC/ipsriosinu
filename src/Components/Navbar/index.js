@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { ContentMenu } from './styles'
 import { GlobalStyle } from '../GloblaStyle'
 import { BsList, BsXSquare } from "react-icons/bs";
+import Fade from 'react-reveal/Fade';
  
 
 

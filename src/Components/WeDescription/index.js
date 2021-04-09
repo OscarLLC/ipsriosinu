@@ -1,9 +1,11 @@
 import React from 'react'
 import { ContentWD } from './styles'
+import Bounce from 'react-reveal/Bounce';
 
 export const WeDescription = () => {
     return(
         <ContentWD>
+            <Bounce top>
             <div className="text-main-description">
                 <p>Esta empresa surge en 2016 como un proyecto
                     tecnológico que desarrollara la creciente
@@ -15,7 +17,9 @@ export const WeDescription = () => {
                     al mercado.
                 </p>
             </div>
+            </Bounce>
             <div className="text-main-valores">
+                <Bounce left>
                 <div className="text-main-description-valores">
                     <h2>Mision</h2>
                         <p>
@@ -27,6 +31,7 @@ export const WeDescription = () => {
                         condición de salud y calidad de vida tanto de ellos, como de sus familias.
                         </p>
                 </div>
+                </Bounce>
                 <div className="text-main-description">
                     <h2>Vision</h2>
                         <p>
@@ -36,6 +41,7 @@ export const WeDescription = () => {
                         estándares de calidad, crecimiento integral y en servicios complementarios.
                         </p>
                 </div>
+                <Bounce right>
                 <div className="text-main-description">
                     <h2>Nuestros Valores</h2>
                        <ul>
@@ -45,6 +51,7 @@ export const WeDescription = () => {
                            <li>Puntualidad</li>
                        </ul>
                 </div>
+                </Bounce>
             </div>
         </ContentWD>
     )

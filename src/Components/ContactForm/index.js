@@ -3,6 +3,8 @@ import React, { useState }  from 'react';
 import ModalForm from '../ModalForm'
 import { ContainerForm } from './styles';
 import { PostContact } from '../PostContact';
+import Flip from 'react-reveal/Flip';
+
 
 
 export default function ContactUs(){
@@ -56,6 +58,7 @@ export default function ContactUs(){
                 
             </div>
             <div className="content-main-form">
+                <Flip right>
                 <div className="sub-form">
                     <form onSubmit={sendEmail} className="form">
                         <div className="sub-title-form">
@@ -123,6 +126,7 @@ export default function ContactUs(){
                         </div>
                     </form>
                 </div>
+                </Flip>
             </div>
         </ContainerForm>
 

@@ -1,13 +1,14 @@
 import React from 'react';
 import Logo from '../../assets/logo-mas.jpeg';
 import PersonCalll from '../../assets/person-call.png';
-import { ContentPost } from './styles'
-
+import { ContentPost } from './styles';
+import Roll from 'react-reveal/Roll';
 
 
 export const PostContact = (props) => {
     return(
         <ContentPost>
+            <Roll left>
             <div className="content-image-main">
                 <img src={Logo} className="logo" />
             </div>
@@ -29,7 +30,7 @@ export const PostContact = (props) => {
                         </p>
                     </h3>
                 </div>
-            
+                </Roll>
         </ContentPost>
     )
 }

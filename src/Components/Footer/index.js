@@ -4,6 +4,7 @@ import { AiOutlineInstagram,
          AiOutlineTwitter,
          AiOutlineYoutube,
          AiOutlineFacebook } from "react-icons/ai";
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -11,6 +12,7 @@ import { AiOutlineInstagram,
 export const Footer = () => {
     return(
         <ContentFooter>
+            <Fade bottom>
             <div className="content-redes">
                 <div className="sub-redes">
                     <a href="https://www.instagram.com/ips_rio_sinu__/" target="_blank"><AiOutlineInstagram className="redes" /></a>
@@ -31,6 +33,7 @@ export const Footer = () => {
                 <p><strong> Telefonos: 314 814 08 38 <br /> Fax: 314 814 08 38</strong></p>
                 <p>Correo:ipsriosinu@gmail.com</p>
             </div>
+            </Fade>
         </ContentFooter>
     )
 }
