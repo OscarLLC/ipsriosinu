@@ -32,6 +32,7 @@ export const WeDescription = () => {
                         </p>
                 </div>
                 </Bounce>
+                <Bounce right>
                 <div className="text-main-description">
                     <h2>Vision</h2>
                         <p>
@@ -41,6 +42,7 @@ export const WeDescription = () => {
                         estándares de calidad, crecimiento integral y en servicios complementarios.
                         </p>
                 </div>
+                </Bounce>
                 <Bounce right>
                 <div className="text-main-description">
                     <h2>Nuestros Valores</h2>
