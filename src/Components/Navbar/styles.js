@@ -17,6 +17,8 @@ export const ContentMenu = styled.nav`
     @media(max-width: 1080px){
         position: relative;
         justify-content: space-between;
+        position: fixed;
+        height: 90px;
 
     }
 };
@@ -27,10 +29,12 @@ export const ContentMenu = styled.nav`
     border-radius: 10px;
     @media(max-width: 1080px){
         position: absolute;
-        top: 0px;
+        top: -3px;
+        height: 75px;
         left: 0px;
-        transform: translate(25%, 17%)
-    }
+        transform: translate(25%, 17%);
+    };
+
 };
 
 .subItems{
@@ -47,6 +51,7 @@ export const ContentMenu = styled.nav`
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
+    
     @media(max-width: 1080px){
         display: block;
         width: 100%;
@@ -59,7 +64,8 @@ export const ContentMenu = styled.nav`
         
     }
     @media(max-width:1000px){
-        padding-top: 75px;
+        padding-top: 85px;
+        margin-top: -34px;
     }
 
 }
@@ -72,10 +78,12 @@ export const ContentMenu = styled.nav`
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    position: fixed;
  
    
     @media(max-width:1000px){
-        padding-top: 75px;
+        padding-top: 85px;
+        margin-top: -34px;
 
     }
     
