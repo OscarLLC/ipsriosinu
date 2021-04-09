@@ -20,7 +20,9 @@ import styled from 'styled-components'
   transition: 0.5s;
   overflow: hidden;
   transform: scale(1.08);
-  
+  @media(max-width:1080px){
+    margin-top:89px;
+  }
 }
 
 #goLeft{
@@ -35,6 +37,9 @@ import styled from 'styled-components'
     outline: none;
     transition: 0.5s;
     cursor: pointer;
+    @media(max-width: 1080px){
+      top: 60%;
+    }
 
 }
 /* 
@@ -55,7 +60,9 @@ import styled from 'styled-components'
   outline: none;
   transition: 0.5s;
   cursor: pointer;
-
+  @media(max-width: 1080px){
+      top: 60%;
+    }
 }
 
 /* #goRight:hover{

@@ -61,12 +61,10 @@ export const ContentMenu = styled.nav`
         left:-100%;
         opacity: 1;
         transition: all 0.5s ease;
-        
-    }
-    @media(max-width:1000px){
         padding-top: 85px;
         margin-top: -34px;
     }
+   
 
 }
 
