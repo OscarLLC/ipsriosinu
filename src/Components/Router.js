@@ -10,7 +10,8 @@ import { Nosotros } from '../page/Nosotros';
 import { Contactanos } from '../page/Contactanos';
 import ContactUs from '../Components/ContactForm';
 import { Error } from '../Components/Error';
-import { PostContact } from '../Components/PostContact'
+import { PostContact } from '../Components/PostContact';
+import Map from '../Components/Map';
 
 
     
@@ -28,6 +29,7 @@ function Router() {
                 <Route  path='/ContactUs' component={ContactUs} />
                 <Route  path='/Contactanos' component={Contactanos} />
                 <Route  path='/PostContact' component={PostContact} />
+                <Route  path='/Map' component={Map} />
                 <Route component={Error} />
             </Switch>
         </BrowserRouter>

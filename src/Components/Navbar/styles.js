@@ -29,7 +29,7 @@ export const ContentMenu = styled.nav`
     border-radius: 10px;
     @media(max-width: 1080px){
         position: absolute;
-        top: -3px;
+        top: -5px;
         height: 75px;
         left: 0px;
         transform: translate(25%, 17%);

@@ -10,7 +10,6 @@ import { BsList, BsXSquare } from "react-icons/bs";
 class Navbar extends Component{
     state = {
         clickend: false,
-        
     }
 
     handleClick = () => {
