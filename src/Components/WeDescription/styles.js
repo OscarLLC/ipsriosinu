@@ -9,14 +9,11 @@ export const ContentWD = styled.div`
 
     .text-main-description{
         margin: 35px 0px;
-        box-shadow: 0 25px 25px 0 rgba(0,0,0,0.3);
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         width: 100%;
         padding: 15px;
-    }
-
-    .text-main-description{
-        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
     }
 
     h2{
