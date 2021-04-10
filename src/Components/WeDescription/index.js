@@ -6,20 +6,17 @@ export const WeDescription = () => {
     return(
         <ContentWD>
             <Bounce left>
-            <div className="text-main-description">
-                <p>Esta empresa surge en 2016 como un proyecto
-                    tecnológico que desarrollara la creciente
-                    demanda de servicios jurídicos utilizando
-                    medios digitales de manera novedosa y económicamente 
-                    viable. Finalmente en 2017 se establece la marca y
-                    la mayoría de convenios requeridos además de la
-                    proyección financiera para lanzar la plataforma 
-                    al mercado.
+            <div className="text-main-descriptionm">
+                <p>En IPS RIO SINU, nos comprometemos a prestar servicios de atención
+                    especializada con calidad basados en el mejoramiento continuo, cumpliendo 
+                    atributos de seguridad oportunidad, humanismo y una atención satisfactoria.
                 </p>
             </div>
             </Bounce>
-            <div className="text-main-valores">
-                <Bounce left>
+
+            
+            <Bounce left>
+                <div className="text-main-description">
                 <div className="text-main-description-valores">
                     <h2>Mision</h2>
                         <p>
@@ -31,6 +28,7 @@ export const WeDescription = () => {
                         condición de salud y calidad de vida tanto de ellos, como de sus familias.
                         </p>
                 </div>
+            </div>
                 </Bounce>
                 <Bounce right>
                 <div className="text-main-description">
@@ -43,6 +41,7 @@ export const WeDescription = () => {
                         </p>
                 </div>
                 </Bounce>
+
                 <Bounce right>
                 <div className="text-main-description">
                     <h2>Nuestros Valores</h2>
@@ -54,7 +53,6 @@ export const WeDescription = () => {
                        </ul>
                 </div>
                 </Bounce>
-            </div>
         </ContentWD>
     )
 }

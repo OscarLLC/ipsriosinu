@@ -33,7 +33,7 @@ export default function ContactUs(){
                     title="AGENDA TU CITA MONTERIA"
                     titlecall="LLAMA A NUESTRAS LINEAS"
                     number="314 814 0838 - 304 254 1389" 
-                    numbertwo ="322 574 2388 - 304 316 7496" 
+                    numbertwo ="322 584 2388 - 304 316 7496" 
                     numberthere="304 316 7497"
                     email="ipsriosinumonteria@gmail.com"
                 />
