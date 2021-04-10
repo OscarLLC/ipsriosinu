@@ -13,6 +13,12 @@ export const WeIps = () => {
         <ContentWeIps> 
             <div className="description-weips">
                 <RubberBand><h2>IPS RIO SINU</h2></RubberBand>
+                <Bounce left><p>Prestamos el mejor servicio de salud consulta externa especializada 
+                    a paciente que requieran nuestro servicio, con la garantía que nuestros usuarios 
+                    y acompañantes reciban la mejor y más calidad atención profesional, ofrecida 
+                    por el sector.
+                    </p></Bounce>
+                    <br />
                 <Bounce left><p>Nos comprometemos con la seguridad 
                     de nuestros usuarios a partir de la aplicación de practicas seguras, 
                     barreras y controles, que minimicen La posibilidad de ocurrencia de 
