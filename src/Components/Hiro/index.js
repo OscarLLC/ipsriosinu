@@ -10,10 +10,10 @@ export const Hiro = () => {
         <ContentHiro>
            <Zoom>
             <div className="sub-hiros">
-                <h2>Nosotros</h2>
+                <h2>Gaeleria</h2>
             </div>
             <div className="sub-hiros">
-                <h2>Profesionales de la Salud</h2>
+                <h2>Nosotros</h2>
             </div>
             <div className="sub-hiros">
                 <h2>Servicios</h2>

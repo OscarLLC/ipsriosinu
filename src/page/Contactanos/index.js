@@ -7,6 +7,7 @@ import { ContentContact } from './styles';
 import Map  from '../../Components/Map';
 import Credencial from '../../Components/Credencial';
 import Zoom from 'react-reveal/Zoom';
+import Wobble from 'react-reveal/Wobble';
 
 
 const mapUrl =  `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${Credencial.mapsKey}`
@@ -17,7 +18,9 @@ export const Contactanos = (props) => {
             <Navbar />
             <Slider />
             <ContactUs />
-            <h2 style={{marginLeft: '25px', paddingBottom:'15px'}}>Encuentranos</h2>
+            <Wobble>
+                <h2 style={{marginLeft: '25px', paddingBottom:'15px'}}>Encuentranos</h2>
+            </Wobble>
             <Zoom left>
             <Map 
                 googleMapURL= { mapUrl }
