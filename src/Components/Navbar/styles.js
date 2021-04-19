@@ -15,7 +15,7 @@ export const ContentMenu = styled.nav`
        
 
     @media(max-width: 1080px){
-        position: relative;
+        
         justify-content: space-between;
         position: fixed;
         height: 90px;

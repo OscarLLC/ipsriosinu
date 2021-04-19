@@ -6,6 +6,7 @@ import { Contentwe } from './styles';
 import { Footer } from '../../Components/Footer';
 
 
+
 export const Nosotros = () => {
     return(
         <Contentwe>

@@ -6,7 +6,5 @@ export const WrapperMain = styled.div`
     max-width: 90%;
 
 
-    @media(max-width:420px){
-        min-width: 100%;
-    }
+   
 `;

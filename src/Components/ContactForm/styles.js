@@ -146,7 +146,7 @@ export const ContainerForm = styled.section`
            
             width: 100%;
             font-size: 15px;
-            padding: 15px 5px;
+            padding: 0px 5px;
             margin-top: 0;
         }
     }

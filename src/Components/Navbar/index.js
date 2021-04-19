@@ -42,7 +42,7 @@ class Navbar extends Component{
                                 <Link to="/" className="links">Profesionales de la Salud</Link>
                             </div>
                             <div className="content-links">
-                                <Link to="/" className="links">Servicios</Link>
+                                <Link to="Servicios" className="links">Servicios</Link>
                             </div>
                             <div className="content-links">
                                 <Link to="/Contactanos" className="links">Contactanos</Link>

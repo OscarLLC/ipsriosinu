@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar';
-import Slider from '../../Components/Banner/Slider';
 import { Footer } from '../../Components/Footer';
 import ContactUs  from '../../Components/ContactForm';
 import { ContentContact } from './styles';
@@ -15,8 +14,7 @@ const mapUrl =  `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${Credencia
 export const Contactanos = (props) => {
     return(
         <ContentContact>
-            <Navbar />
-            <Slider />
+           <Navbar />
             <ContactUs />
             <Wobble>
                 <h2 style={{marginLeft: '25px', paddingBottom:'15px'}}>Encuentranos</h2>

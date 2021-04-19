@@ -8,6 +8,7 @@ import { WeIps } from './WeIps';
 import { Footer } from './Footer';
 import { Nosotros } from '../page/Nosotros';
 import { Contactanos } from '../page/Contactanos';
+import { Servicios } from '../page/Servicios';
 import ContactUs from '../Components/ContactForm';
 import { Error } from '../Components/Error';
 import { PostContact } from '../Components/PostContact';
@@ -26,6 +27,7 @@ function Router() {
                 <Route  path='/WeIps' component={WeIps} />
                 <Route  path='/Footer' component={Footer} />
                 <Route  path='/Nosotros' component={Nosotros} />
+                <Route  path='/Servicios' component={Servicios} />
                 <Route  path='/ContactUs' component={ContactUs} />
                 <Route  path='/Contactanos' component={Contactanos} />
                 <Route  path='/PostContact' component={PostContact} />

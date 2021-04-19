@@ -4,6 +4,7 @@ import ModalForm from '../ModalForm'
 import { ContainerForm } from './styles';
 import { PostContact } from '../PostContact';
 import Fade from 'react-reveal/Fade';
+import { TextMain } from '../TextMain';
 
 
 
@@ -28,7 +29,12 @@ export default function ContactUs(){
         
         return(
             <ContainerForm>
+                <TextMain 
+                titlemain="AGENDA TU CITA"
+                description="Lo puedes hacer a traves de nuetras sedes seleccionando una de ellas." />
+    
             <div className="content-dates">
+                
             <PostContact 
                     title="AGENDA TU CITA MONTERIA"
                     titlecall="LLAMA A NUESTRAS LINEAS"
