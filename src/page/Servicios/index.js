@@ -504,8 +504,8 @@ export const Servicios = () => {
              />
              </Link>
              </div> */}
-             <Footer />
              </Wrapper>
+             <Footer />
         </ContentServices>
     ) 
 }
