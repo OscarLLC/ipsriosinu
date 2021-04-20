@@ -16,23 +16,32 @@ export const ContentHiriMain = styled.div`
    }
 
    .title-hiro{
-       width: 100%;
+       width: 80%;
        height: 350px;
        display: flex;
-       justify-content: center;
+       justify-content: end;
        align-items: center;
        position: absolute;
+       @media(max-width: 500px){
+           justify-content:center;
+       }
    }
 
    .text-services{
     font-size: 40px;
     z-index: 10;
     color: white;
-    margin-left: 625px;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    display: flex; 
+    justify-content: flex-end;
     @media(max-width:1000px){
         font-size: 35px;
         margin-left: 0px;
         margin-top: -195px;
+        justify-content: center;
     }
    }
 

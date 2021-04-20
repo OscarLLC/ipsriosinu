@@ -13,6 +13,12 @@ import ContactUs from '../Components/ContactForm';
 import { Error } from '../Components/Error';
 import { PostContact } from '../Components/PostContact';
 import Map from '../Components/Map';
+import { SedeMonteria } from '../Components/Sedes/Monteria/index';
+import { SedeLorica } from '../Components/Sedes/Lorica/index';
+import { SedeTierralta } from '../Components/Sedes/Tierralta';
+import { SedeMontelibano } from '../Components/Sedes/Montelibano';
+
+
 
 
     
@@ -32,6 +38,10 @@ function Router() {
                 <Route  path='/Contactanos' component={Contactanos} />
                 <Route  path='/PostContact' component={PostContact} />
                 <Route  path='/Map' component={Map} />
+                <Route  path='/Smonteria/:idmonteria' component={SedeMonteria} />
+                <Route  path='/Slorica/:idlorica' component={SedeLorica} />
+                <Route  path='/Stierralta/:idtierralta' component={SedeTierralta} />
+                <Route  path='/Smontelibano/:idmontelibano' component={SedeMontelibano} />
                 <Route component={Error} />
             </Switch>
         </BrowserRouter>
