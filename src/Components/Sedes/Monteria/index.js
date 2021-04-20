@@ -8,7 +8,9 @@ import iconMedicinaInterna from '../../../assets/icon-medicina-interna.png';
 import iconAnesteciologia from '../../../assets/icon-anesteciologia.png';
 import { Link } from 'react-router-dom';
 import { Footer } from '../../Footer';
-import { HiroMain } from '../../HiroMain'
+import { HiroMain } from '../../HiroMain';
+import Wobble from 'react-reveal/Wobble';
+import Slide from 'react-reveal/Slide';
 
 
 export const SedeMonteria = () => {
@@ -20,10 +22,13 @@ export const SedeMonteria = () => {
                 ImagesHiroMain="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
              />
             <Wrapper>
+            <Wobble>
             <div className="content-text-title">
                 <p>En nuestra sede contamos con una amplia red de sercios de consulta externa en la ciudad de monteria.</p>
             </div>
+            </Wobble>
             <div className="content-cardservices">
+            <Slide left>
             <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -32,6 +37,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+            <Slide left>
              <Link to="/Nosotros" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -40,6 +47,8 @@ export const SedeMonteria = () => {
                 imageicon={iconMedicinaInterna}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -48,6 +57,8 @@ export const SedeMonteria = () => {
                 imageicon={iconAnesteciologia}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -56,6 +67,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -64,6 +77,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -72,6 +87,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -80,6 +97,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -88,6 +107,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/Sede/Monteria" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -96,6 +117,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -104,6 +127,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -112,6 +137,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -120,6 +147,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -128,6 +157,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -136,6 +167,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -144,6 +177,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -152,6 +187,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -160,6 +197,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -168,6 +207,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -176,6 +217,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -184,6 +227,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
               <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -192,6 +237,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -200,6 +247,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -208,6 +257,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -216,6 +267,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -224,6 +277,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -232,6 +287,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -240,6 +297,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -248,6 +307,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -256,6 +317,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -264,6 +327,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -272,6 +337,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -280,6 +347,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -288,6 +357,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -296,6 +367,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -304,6 +377,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -312,6 +387,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -320,6 +397,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -328,6 +407,8 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
+             <Slide left>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -336,6 +417,7 @@ export const SedeMonteria = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Slide>
             </div>
             </Wrapper>
             <Footer />
