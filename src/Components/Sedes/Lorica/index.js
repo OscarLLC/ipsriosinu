@@ -9,6 +9,8 @@ import iconAnesteciologia from '../../../assets/icon-anesteciologia.png';
 import { Link } from 'react-router-dom';
 import { Footer } from '../../Footer';
 import { HiroMain } from '../../HiroMain';
+import Jump from 'react-reveal/Jump';
+import Zoom from 'react-reveal/Zoom';
 
 
 export const SedeLorica = () => {
@@ -20,10 +22,13 @@ export const SedeLorica = () => {
                 title="SERVICIOS LORICA"
                 ImagesHiroMain="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
              />
+             <Jump>
             <div className="content-text-title">
                 <p>En nuestra sede contamos los mejores sercios de consulta externa.</p>
             </div>
+            </Jump>
             <div className="content-cardservices">
+            <Zoom>
             <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -32,6 +37,8 @@ export const SedeLorica = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Zoom>
+            <Zoom>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -40,6 +47,8 @@ export const SedeLorica = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Zoom>
+             <Zoom>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -48,6 +57,8 @@ export const SedeLorica = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Zoom>
+             <Zoom>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -56,6 +67,8 @@ export const SedeLorica = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Zoom>
+             <Zoom>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -64,6 +77,8 @@ export const SedeLorica = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Zoom>
+             <Zoom>
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
@@ -72,6 +87,7 @@ export const SedeLorica = () => {
                 imageicon={iconServices}
              />
              </Link>
+             </Zoom>
             </div>
             </Wrapper>
             <Footer />
