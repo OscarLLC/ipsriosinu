@@ -16,7 +16,7 @@ class FormWhMonteriaL extends Component{
             mensaje: this.mensajeRef.current.value,
         }
         console.log(dates)
-        window.open(`https://api.whatsapp.com/send?phone=+573225842388&text=Cita%20%0A${dates.nombre}%20${dates.apellido}%20%0A${dates.celular}%20%0A${dates.mensaje}`)
+        window.open(`https://api.whatsapp.com/send?phone=+573225842388&text=Quiero Una Cita Estos Son Mis Datos!%20%0A${dates.nombre}%20${dates.apellido}%20%0A${dates.celular}%20%0A${dates.mensaje}`)
         e.currentTarget.reset()
     }
 
@@ -31,11 +31,11 @@ class FormWhMonteriaL extends Component{
                                 </div>
                                 <div className="sud-sub-input-ones">
                                     <div className="content-inputs-one">
-                                        <label>Nombre: </label><br />
+                                        <label>Nombres: </label><br />
                                         <input ref={this.nombreRef} required type="text" className="inputs-one"  type="text" /><br />
                                     </div>
                                     <div className="content-inputs-one">
-                                        <label>Apellido: </label><br />
+                                        <label>Apellidos: </label><br />
                                         <input ref={this.apellidoRef} required type="text" className="inputs-one two"  type="text" />
                                     </div>
                                 </div>
