@@ -9,7 +9,7 @@ export const ContainerForm = styled.section`
     align-items: center;
 }
     .sub-form{
-        background-color: #f1f2f5;
+        background-color: #017e87;
         width: 60%;
         padding: 15px;
         display: flex;
@@ -27,6 +27,14 @@ export const ContainerForm = styled.section`
         padding: 15px;
     }
 
+    p{
+        font-weight: 800;
+        color: white;
+    }
+
+    label{
+        color: white;
+    }
     .sub-title-form{
         padding: 15px 0;
     }

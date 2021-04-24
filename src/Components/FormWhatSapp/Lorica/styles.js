@@ -31,6 +31,15 @@ export const ContainerForm = styled.section`
         padding: 15px 0;
     }
 
+    p{
+        font-weight: 800;
+        color: white;
+    }
+
+    label{
+        color: white;
+    }
+
     .sud-sub-input-ones{
         width: 100%;
         display: flex;
