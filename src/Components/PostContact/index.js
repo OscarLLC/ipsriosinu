@@ -9,6 +9,7 @@ export const PostContact = (props) => {
     return(
         <ContentPost>
             <Roll left>
+            <div className="sub-car">
             <div className="content-image-main">
                 <img src={Logo} className="logo" />
             </div>
@@ -29,6 +30,7 @@ export const PostContact = (props) => {
                             CORREO: <br />{props.email}
                         </p>
                     </h3>
+                </div>
                 </div>
                 </Roll>
         </ContentPost>

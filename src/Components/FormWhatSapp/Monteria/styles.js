@@ -3,20 +3,19 @@ import styled from 'styled-components';
 export const ContainerForm = styled.section`
     background-color: white;
     padding-bottom: 70px;
-    
 .content-main-form{
     display: flex;
     justify-content: center;
     align-items: center;
 }
     .sub-form{
-        background-color: #007d87;
-        margin-top: 80px;
+        background-color: #f1f2f5;
         width: 60%;
         padding: 15px;
         display: flex;
         border-radius: 5px;
         justify-content: center;
+        margin-top: 145px;
         @media(max-width: 790px){
             width: 90%;
         }
@@ -57,18 +56,13 @@ export const ContainerForm = styled.section`
     }
 
     .input-celular{
-        width: 100%;
-        height: 45px;
-        border-radius: 5px;
-        border: none;
+        width:100%;
+        height: 30px;
     }
 
     .inputs-one{
         width: 100%;
-        height: 45px;
-        border-radius: 5px;
-        border: none;
-        padding-left: 5px;
+        height: 30px;
     }
 
     .text-tarea{
@@ -79,29 +73,9 @@ export const ContainerForm = styled.section`
     .campu-description {
         width: 100%;
         height: 140px;
-        border-radius: 5px;
-        border: none;
-        padding: 5px 0px 0px 5px;
-    }
+    };
 
-    .content-button-submit{
-        width: 110px;
-        border-radius: 20px;
-        background-color: #00d3b5;
-        display: flex;
-        justify-content: center; 
-        align-items: center;
-        @media(max-width: 790px){
-            width: 100%;
-            
-        }
-
-        .content-button-submit:hover{
-            background-color: #208475;
-        }
-    }
-
-    .enviar{
+    .enviarCita{
         width: 110px;
         color: white;
         padding: 15px;
@@ -118,46 +92,7 @@ export const ContainerForm = styled.section`
         }
     }
 
-    .enviar:hover{
+    .enviarCita:hover{
         background-color: #0cff52;
-    }
-
-    h2{
-        color: white;
-    }
-
-    label{
-        font-size: 20px;
-        color: white;
-    }
-
-    .text-contact{
-        color: #2991D6;
-    }
-
-    .content-dates{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap:wrap;
-        width: 100%;
-        margin-top: 25px;
-        @media (max-width: 970px){
-            width: 100%;
-            font-size: 15px;
-            padding: 0px 5px;
-            margin-top: 0;
-            display: block;
-        }
-    }
-    .links-wh{
-        width: 40%;
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
-        @media(max-width: 970px){
-            width: 100%;
-            
-        }
     }
 `;

@@ -17,7 +17,7 @@ import { SedeMonteria } from '../Components/Sedes/Monteria/index';
 import { SedeLorica } from '../Components/Sedes/Lorica/index';
 import { SedeTierralta } from '../Components/Sedes/Tierralta';
 import { SedeMontelibano } from '../Components/Sedes/Montelibano';
-
+import { CitasWhatsapp } from '../page/Citas-whatsapp';
 
 
 
@@ -42,6 +42,8 @@ function Router() {
                 <Route  path='/Slorica/:idlorica' component={SedeLorica} />
                 <Route  path='/Stierralta/:idtierralta' component={SedeTierralta} />
                 <Route  path='/Smontelibano/:idmontelibano' component={SedeMontelibano} />
+                <Route  path='/CitasWhMonteria/:idcitamonteria' component={CitasWhatsapp} />
+                {/* <Route  path='/CitasWhMonteria/:idcitamonteria' component={CitasWhatsapp} /> */}
                 <Route component={Error} />
             </Switch>
         </BrowserRouter>

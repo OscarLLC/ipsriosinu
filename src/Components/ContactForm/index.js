@@ -5,6 +5,8 @@ import { ContainerForm } from './styles';
 import { PostContact } from '../PostContact';
 import Fade from 'react-reveal/Fade';
 import { TextMain } from '../TextMain';
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -34,7 +36,7 @@ export default function ContactUs(){
                 description="Lo puedes hacer a traves de nuetras sedes seleccionando una de ellas." />
     
             <div className="content-dates">
-                
+            <Link to="CitasWhMonteria/Monteria" className="links-wh">
             <PostContact 
                     title="AGENDA TU CITA MONTERIA"
                     titlecall="LLAMA A NUESTRAS LINEAS"
@@ -43,25 +45,31 @@ export default function ContactUs(){
                     numberthere="304 316 7497"
                     email="ipsriosinumonteria@gmail.com"
                 />
+            </Link>
+            <Link to="/" className="links-wh">
                 <PostContact 
                     title="AGENDA TU CITA LORICA"
                     titlecall="LLAMA A NUESTRA LINEA"
                     number="322 582 8294"
                     email="ipsriosinulorica@gmail.com"
                 />
+            </Link>
+            <Link to="/" className="links-wh">
                  <PostContact 
                     title="AGENDA TU CITA MONTELIBANO"
                     titlecall="LLAMA A NUESTRA LINEA"
                     number="322 584 2018"
                     email="ipsriosinumontelibano@gmail.com"
                 />
+            </Link>
+            <Link to="/" className="links-wh">
                  <PostContact 
                     title="AGENDA TU CITA TIERRALTA"
                     titlecall="LLAMA A NUESTRA LINEA"
                     number="322 584 3237"
                     email="ipsriosinutierralta@gmail.com"
                 />
-                
+            </Link> 
             </div>
             <div className="content-main-form">
                 <Fade right>
@@ -125,8 +133,6 @@ export default function ContactUs(){
                                                 }} onClick={()=>abrirCerrarModal()} >X</button>
                                 </div>
                                 </div>
-                                
-
                             </ModalForm>
                             </div>
                         </div>

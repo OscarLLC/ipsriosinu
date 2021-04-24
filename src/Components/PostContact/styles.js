@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const ContentPost = styled.div`
-    width: 40%;
+    width: 90%;
     height: 430px;
     background-color: white;
     text-align: center;
@@ -11,14 +11,19 @@ export const ContentPost = styled.div`
     transition: 0.3s;
     border-radius: 10px;
     @media(max-width: 1098px){
-        width: 70%;
+        width: 90%;
         height: 430px;
-        margin: 55px 10px;
+        margin: 25px 10px;
     }
     @media(max-width: 700px){
         width: 95%;
         height: 380px;
         margin: 55px 10px;
+    }
+
+    .sub-car{
+        width: 100%;
+        justify-content: center;
     }
 
     .content-image-main{
