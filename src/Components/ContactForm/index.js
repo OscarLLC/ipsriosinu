@@ -46,7 +46,7 @@ export default function ContactUs(){
                     email="ipsriosinumonteria@gmail.com"
                 />
             </Link>
-            <Link to="/" className="links-wh">
+            <Link to="CitasWhLorica/Lorica" className="links-wh">
                 <PostContact 
                     title="AGENDA TU CITA LORICA"
                     titlecall="LLAMA A NUESTRA LINEA"

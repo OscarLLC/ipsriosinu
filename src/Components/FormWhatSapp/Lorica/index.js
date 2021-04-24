@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { ContainerForm } from './styles'
  
-class FormWhMonteriaC extends Component{
+class FormWhMonteriaL extends Component{
     nombreRef = React.createRef();
     apellidoRef = React.createRef();
     celularRef = React.createRef();
@@ -16,7 +16,7 @@ class FormWhMonteriaC extends Component{
             mensaje: this.mensajeRef.current.value,
         }
         console.log(dates)
-        window.open(`https://api.whatsapp.com/send?phone=+573223149605&text=Cita%20%0A${dates.nombre}%20${dates.apellido}%20%0A${dates.celular}%20%0A${dates.mensaje}`)
+        window.open(`https://api.whatsapp.com/send?phone=+573225842388&text=Cita%20%0A${dates.nombre}%20${dates.apellido}%20%0A${dates.celular}%20%0A${dates.mensaje}`)
         e.currentTarget.reset()
     }
 
@@ -27,7 +27,7 @@ class FormWhMonteriaC extends Component{
                         <div className="sub-form">
                             <form onSubmit={this.enviarData} className="form">
                                 <div className="sub-title-form">
-                                    <p>AGENDA TU CITA</p>
+                                    <p>AGENDA TU CITA LORICA</p>
                                 </div>
                                 <div className="sud-sub-input-ones">
                                     <div className="content-inputs-one">
@@ -58,4 +58,4 @@ class FormWhMonteriaC extends Component{
     }
 }
 
-export default FormWhMonteriaC;
+export default FormWhMonteriaL;

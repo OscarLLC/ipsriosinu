@@ -27,7 +27,7 @@ class FormWhMonteriaC extends Component{
                         <div className="sub-form">
                             <form onSubmit={this.enviarData} className="form">
                                 <div className="sub-title-form">
-                                    <p>AGENDA TU CITA</p>
+                                    <p>AGENDA TU CITA MONTERIA</p>
                                 </div>
                                 <div className="sud-sub-input-ones">
                                     <div className="content-inputs-one">
