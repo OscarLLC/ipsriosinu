@@ -31,46 +31,9 @@ export default function ContactUs(){
         
         return(
             <ContainerForm>
-                <TextMain 
-                titlemain="AGENDA TU CITA"
-                description="Lo puedes hacer a traves de nuetras sedes seleccionando una de ellas." />
+                
     
-            <div className="content-dates">
-            <Link to="CitasWhMonteria/Monteria" className="links-wh">
-            <PostContact 
-                    title="AGENDA TU CITA MONTERIA"
-                    titlecall="LLAMA A NUESTRAS LINEAS"
-                    number="314 814 0838 - 304 254 1389" 
-                    numbertwo ="322 584 2388 - 304 316 7496" 
-                    numberthere="304 316 7497"
-                    email="ipsriosinumonteria@gmail.com"
-                />
-            </Link>
-            <Link to="CitasWhLorica/Lorica" className="links-wh">
-                <PostContact 
-                    title="AGENDA TU CITA LORICA"
-                    titlecall="LLAMA A NUESTRA LINEA"
-                    number="322 582 8294"
-                    email="ipsriosinulorica@gmail.com"
-                />
-            </Link>
-            <Link to="/" className="links-wh">
-                 <PostContact 
-                    title="AGENDA TU CITA MONTELIBANO"
-                    titlecall="LLAMA A NUESTRA LINEA"
-                    number="322 584 2018"
-                    email="ipsriosinumontelibano@gmail.com"
-                />
-            </Link>
-            <Link to="/" className="links-wh">
-                 <PostContact 
-                    title="AGENDA TU CITA TIERRALTA"
-                    titlecall="LLAMA A NUESTRA LINEA"
-                    number="322 584 3237"
-                    email="ipsriosinutierralta@gmail.com"
-                />
-            </Link> 
-            </div>
+            
             <div className="content-main-form">
                 <Fade right>
                 <div className="sub-form">

@@ -26,8 +26,9 @@ import styled from 'styled-components'
       
     }
 
-    p{
+    .text-footer{
        text-align: center;
+       margin: 0;
     }
     .content-redes{
         width: 45%;

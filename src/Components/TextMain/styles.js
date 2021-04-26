@@ -14,7 +14,7 @@ export const ContentTitleMain = styled.div`
         }
     }
 
-    p{
+    .text-description-main{
         margin-left:15px;
     }
 

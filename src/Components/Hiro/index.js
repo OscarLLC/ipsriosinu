@@ -1,7 +1,9 @@
-import React from 'react'
-import { Wrapper } from '../Wrapper'
-import { ContentHiro } from './styles'
+import React from 'react';
+import { Wrapper } from '../Wrapper';
+import { ContentHiro } from './styles';
 import Zoom from 'react-reveal/Zoom';
+
+
 
 
 export const Hiro = () => {
@@ -10,7 +12,7 @@ export const Hiro = () => {
         <ContentHiro>
            <Zoom>
             <div className="sub-hiros">
-                <h2>Gaeleria</h2>
+                <h2>Galeria</h2>
             </div>
             <div className="sub-hiros">
                 <h2>Nosotros</h2>

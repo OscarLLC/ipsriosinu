@@ -39,7 +39,7 @@ class Navbar extends Component{
                                 <Link to="/Nosotros" className="links">Nosotros</Link>
                             </div>
                             <div className="content-links">
-                                <Link to="/" className="links">Profesionales de la Salud</Link>
+                                <Link to="/PideTuCita" className="links">Pide Tu Cita</Link>
                             </div>
                             <div className="content-links">
                                 <Link to="Servicios" className="links">Servicios</Link>
