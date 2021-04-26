@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import { ContentSlider } from './styles'
 import { GlobalStyle } from '../GloblaStyle'
 import ImageComp from '../Banner/ImageSlider'
-import Image1 from '../../assets/image_01.jpg'
-import Image2 from '../../assets/image_02.jpg'
-import Image3 from '../../assets/image_03.jpg'
-import Image4 from '../../assets/iamge_04.jpg'
+import Image1 from '../../assets/img-1.jpg'
+import Image2 from '../../assets/img-2.jpg'
+import Image3 from '../../assets/img-3.jpg'
+import Image4 from '../../assets/img-4.jpg'
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 
@@ -13,7 +13,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 function Slider() {
   //create an array for component to showinside the slide
   let sliderArra = [
-  <ImageComp  src={Image1} />,
+  <ImageComp src={Image1} />,
   <ImageComp src={Image2} />,
   <ImageComp src={Image3} />,
   <ImageComp src={Image4} />

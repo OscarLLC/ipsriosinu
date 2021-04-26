@@ -74,6 +74,7 @@ import styled from 'styled-components'
   max-height: 455px ;
   object-fit: cover;
   min-height: auto;
+  background-position: bottom right;
   @media(max-width: 1000px){
     max-height: 340px;
   }
