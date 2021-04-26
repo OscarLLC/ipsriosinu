@@ -8,15 +8,18 @@ import { TextMain } from '../../Components/TextMain';
 import { Link } from 'react-router-dom';
 import { PostContact } from '../../Components/PostContact';
 import { Footer } from '../../Components/Footer';
+import Slide from 'react-reveal/Slide';
 
 export const PideTuCita = () => {
     return(
         <ContentPideTuCita>
             <Nabvar />
+            <Slide right>
             <HiroMain 
                 title="PIDE TU CITA AQUI"
                 ImagesHiroMain={ImagePideTuCita}
             />
+            </Slide>
             <div className="content-pide-tu-cita">
                 <Wrapper>
                <div className="content-text">

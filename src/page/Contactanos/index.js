@@ -9,6 +9,7 @@ import Zoom from 'react-reveal/Zoom';
 import Wobble from 'react-reveal/Wobble';
 import { HiroMain } from '../../Components/HiroMain';
 import ImageContactanos from '../../assets/contactanos.jpg';
+import Slide from 'react-reveal/Slide';
 
 
 const mapUrl =  `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${Credencial.mapsKey}`
@@ -17,10 +18,12 @@ export const Contactanos = (props) => {
     return(
         <ContentContact>
            <Navbar />
+            <Slide right>
            <HiroMain 
             title="CONTÁCTANOS"
             ImagesHiroMain={ImageContactanos}
            />
+           </Slide>
             <ContactUs />
             <Wobble>
                 <h2 style={{marginLeft: '25px', paddingBottom:'15px'}}>Encuentranos</h2>
