@@ -64,6 +64,9 @@ export const ContentHiriMain = styled.div`
        height: 350px;
        object-fit: cover;
        border-radius: 0px 0px 55px 55px;
+       @media(max-width: 900px){
+           background-image: url('../../assets/pedir-cita.jpg')
+       }
    }
 
 

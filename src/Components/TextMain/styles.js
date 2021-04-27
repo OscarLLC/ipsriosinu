@@ -12,6 +12,10 @@ export const ContentTitleMain = styled.div`
             padding: 140px 15px 0px 15px;
 
         }
+        @media(max-width:920px){
+            padding: 35px 15px 0px 15px;
+
+        }
     }
 
     .text-description-main{
