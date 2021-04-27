@@ -19,12 +19,28 @@ export const ContentHiro = styled.section`
         text-align: center;
         cursor: pointer;
         border-radius: 10px;
+        text-decoration: none;
         @media (max-width: 1210px){
-            width: 320px;
+            width: 300px;
             height: 222px;
         }
         @media (max-width: 800px){
-            width: 90%;
+            max-width: 100%;
+            height: 120px;
+            margin: 5px;
+        }
+        @media (max-width: 688px){
+            width: 450px;
+            height: 120px;
+            margin: 5px;
+        }
+        @media (max-width: 490px){
+            width: 350px;
+            height: 120px;
+            margin: 5px;
+        }
+        @media (max-width: 404px){
+            width: 290px;
             height: 120px;
             margin: 5px;
         }
@@ -40,5 +56,6 @@ export const ContentHiro = styled.section`
         font-size: 1.5rem;
         font-weight: 600;
     }
+    
 
 `;

@@ -16,7 +16,6 @@ export const HiroMain = (props) => {
                     <img className="image-hiromain" src={props.ImagesHiroMain} />
                 </div>
            </div>
-          
         </ContentHiriMain>
     )
 }
