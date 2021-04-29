@@ -2,12 +2,7 @@ import emailjs from 'emailjs-com';
 import React, { useState }  from 'react';
 import ModalForm from '../ModalForm'
 import { ContainerForm } from './styles';
-import { PostContact } from '../PostContact';
 import Fade from 'react-reveal/Fade';
-import { TextMain } from '../TextMain';
-import { Link } from 'react-router-dom';
-
-
 
 
 export default function ContactUs(){
@@ -87,7 +82,7 @@ export default function ContactUs(){
                                 <h3 style={{color: 'white', 
                                             textAlign: 'center', 
                                             padding: '15px',
-                                            color: 'black'
+                                            color: 'black',
                                             }}>Mensaje Enviado!</h3>
                                     <button style={{position: 'relative', 
                                                     backgroundColor: "#c2c2c2", 

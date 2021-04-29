@@ -15,16 +15,16 @@ export const Footer = () => {
             <Fade bottom>
             <div className="content-redes">
                 <div className="sub-redes">
-                    <a href="https://www.instagram.com/ips_rio_sinu__/" target="_blank"><AiOutlineInstagram className="redes" /></a>
+                    <a rel="noreferrer noopener" href="https://www.instagram.com/ips_rio_sinu__/" target="_blank"><AiOutlineInstagram className="redes" /></a>
                 </div>
                 <div className="sub-redes">
-                    <a href="https://twitter.com/ipsriosinu" target="_blank"><AiOutlineTwitter className="redes" /></a>
+                    <a rel="noreferrer noopener" href="https://twitter.com/ipsriosinu" target="_blank"><AiOutlineTwitter className="redes" /></a>
                 </div>
                 <div className="sub-redes">
-                    <a href="https://www.youtube.com/channel/UC6RA7TytQ5zKNRnI_YGyRBw" target="_blank"><AiOutlineYoutube className="redes" /></a>
+                    <a rel="noreferrer noopener" href="https://www.youtube.com/channel/UC6RA7TytQ5zKNRnI_YGyRBw" target="_blank"><AiOutlineYoutube className="redes" rel="norel" /></a>
                 </div>
                 <div className="sub-redes">
-                    <a href="https://www.facebook.com/IPS-RIO-SINU-104115241759477" target="_blank"><AiOutlineFacebook className="redes" /></a>
+                    <a rel="noreferrer noopener" href="https://www.facebook.com/IPS-RIO-SINU-104115241759477" target="_blank"><AiOutlineFacebook className="redes" /></a>
                 </div>
             </div>
             <div className="sub-footer">

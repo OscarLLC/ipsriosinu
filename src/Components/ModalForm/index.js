@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Modal, TextField, Button } from '@material-ui/core'
+import { Modal } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 import { ModalContent } from './styles'
 

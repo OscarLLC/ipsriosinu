@@ -69,7 +69,7 @@ export const ContainerForm = styled.section`
         height: 30px;
     }
 
-    .inputs-one{
+    .inputs-one-lorica{
         width: 100%;
         height: 30px;
     }

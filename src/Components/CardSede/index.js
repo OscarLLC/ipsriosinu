@@ -10,7 +10,9 @@ export const CardSede = (props) => {
                 <div className="text-sede">
                 <h1>{props.titleSede}</h1>
                 </div>
-                <img className="image-sede" src={props.ImageSede} />
+                <picture>
+                <   img className="image-sede" src={props.ImageSede} />
+                </picture>
             </div>
         </ContentCardSede>
     )

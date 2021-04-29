@@ -4,8 +4,6 @@ import { Wrapper } from '../../Wrapper';
 import { ContentSedeTierralta } from './styles';
 import { CardServices } from '../../CardServices';
 import iconServices from '../../../assets/icon-externa.png';
-import iconMedicinaInterna from '../../../assets/icon-medicina-interna.png';
-import iconAnesteciologia from '../../../assets/icon-anesteciologia.png';
 import { Link } from 'react-router-dom';
 import { Footer } from '../../Footer';
 import { HiroMain } from '../../HiroMain';

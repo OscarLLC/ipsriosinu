@@ -8,7 +8,9 @@ function ImageComp({ src }){
 
     }
     return(
-        <img src={src} className="images-slider"  alt="slider-image" style={ImageStyles}></img>
+        <picture>
+            <img src={src} className="images-slider"  alt="slider-image" style={ImageStyles} />
+        </picture>
     )
 }
 

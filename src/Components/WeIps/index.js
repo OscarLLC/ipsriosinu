@@ -38,7 +38,9 @@ export const WeIps = () => {
             </div>
             <Fade right>
             <div className="image-weips">
-                <img className="image-ips-rio" src={ImageIps} />
+                <picture>
+                <img alt="image-ips-rio" className="image-ips-rio" src={ImageIps}  />
+                </picture>
             </div>
             </Fade>
         </ContentWeIps>

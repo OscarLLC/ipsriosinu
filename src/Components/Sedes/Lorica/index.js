@@ -4,8 +4,6 @@ import { Wrapper } from '../../Wrapper';
 import { ContentSedeLorica } from './styles';
 import { CardServices } from '../../CardServices';
 import iconServices from '../../../assets/icon-externa.png';
-import iconMedicinaInterna from '../../../assets/icon-medicina-interna.png';
-import iconAnesteciologia from '../../../assets/icon-anesteciologia.png';
 import { Link } from 'react-router-dom';
 import { Footer } from '../../Footer';
 import { HiroMain } from '../../HiroMain';
@@ -29,7 +27,7 @@ export const SedeLorica = () => {
             </Jump>
             <div className="content-cardservices">
             <Zoom>
-            <Link to="/" className="links">
+            <Link to="/Servicio-CirugiaGeneralLo/ServiceCirugiaGeneral" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
                 titleservices="CIRUGÍA GENERAL"
@@ -39,7 +37,7 @@ export const SedeLorica = () => {
              </Link>
              </Zoom>
             <Zoom>
-             <Link to="/" className="links">
+             <Link to="/Servicio-GinecologiaLo/ServiceGinecologia" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
                 titleservices="GINECOBSTETRICIA"
@@ -49,17 +47,17 @@ export const SedeLorica = () => {
              </Link>
              </Zoom>
              <Zoom>
-             <Link to="/" className="links">
+             {/* <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
                 titleservices="MEDICINA GENERAL"
                 sede="SEDE LORICA"
                 imageicon={iconServices}
              />
-             </Link>
+             </Link> */}
              </Zoom>
              <Zoom>
-             <Link to="/" className="links">
+             <Link to="/Servicio-ServiceMedicinaInternaLo/Servicio-MedicinaInternaLo" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
                 titleservices="MEDICINA INTERNA"
@@ -69,7 +67,7 @@ export const SedeLorica = () => {
              </Link>
              </Zoom>
              <Zoom>
-             <Link to="/" className="links">
+             <Link to="/Servicio-Ginecologia/ServiceGinecologia" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
                 titleservices="ORTOPEDIA Y/O TRAUMATOLOGÍA"
@@ -79,7 +77,7 @@ export const SedeLorica = () => {
              </Link>
              </Zoom>
              <Zoom>
-             <Link to="/" className="links">
+             <Link to="/Servicio-Ginecologia/ServiceGinecologiaLo" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
                 titleservices="PEDIATRÍA"
