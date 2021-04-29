@@ -9,6 +9,13 @@ import { Footer } from '../../Footer';
 import { HiroMain } from '../../HiroMain';
 import Bounce from 'react-reveal/Bounce';
 import LightSpeed from 'react-reveal/LightSpeed';
+import ImageCiruGTi from '../../../assets/cirugiaGeneral.jpg';
+import ImageGinecoTi from '../../../assets/imag-ginecolo.jpg';
+import ImageMedicinaIntTi from '../../../assets/medicenaInterna.jpg';
+import ImageTraumaLi from '../../../assets/img-traumatologia.jpg';
+import ImagePiatriaLi from '../../../assets/img-pediatria.jpg';
+
+
 
 export const SedeTierralta = () => {
     return(
@@ -25,9 +32,9 @@ export const SedeTierralta = () => {
             </div>
             <div className="content-cardservices">
                 <Bounce>
-            <Link to="/" className="links">
+            <Link to="/Servicio-CirugiaGeneralLo/ServiceCirugiaGeneral" className="links">
              <CardServices
-                imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+                imagecardservices={ImageCiruGTi}
                 titleservices="CIRUGÍA GENERAL"
                 sede="TIERRALTA"
                 imageicon={iconServices}
@@ -35,9 +42,9 @@ export const SedeTierralta = () => {
              </Link>
              </Bounce>
              <Bounce>
-             <Link to="/" className="links">
+             <Link to="/Servicio-GinecologiaLo/ServiceGinecologia" className="links">
              <CardServices
-                imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+                imagecardservices={ImageGinecoTi}
                 titleservices="GINECOBSTETRICIA"
                 sede="TIERRALTA"
                 imageicon={iconServices}
@@ -45,19 +52,19 @@ export const SedeTierralta = () => {
              </Link>
              </Bounce>
              <Bounce>
-             <Link to="/" className="links">
+             {/* <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
                 titleservices="MEDICINA GENERAL"
                 sede="TIERRALTA"
                 imageicon={iconServices}
              />
-             </Link>
+             </Link> */}
              </Bounce>
              <Bounce>
-             <Link to="/" className="links">
+             <Link to="/Servicio-ServiceMedicinaInternaLo/Servicio-MedicinaInternaLo" className="links">
              <CardServices
-                imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+                imagecardservices={ImageMedicinaIntTi}
                 titleservices="MEDICINA INTERNA"
                 sede="TIERRALTA"
                 imageicon={iconServices}
@@ -65,9 +72,9 @@ export const SedeTierralta = () => {
              </Link>
              </Bounce>
              <Bounce>
-             <Link to="/" className="links">
+             <Link to="/Servicio-OrtopediaTraumatologiaLo/Servicio-OrtopediaTraumatologiaLo" className="links">
              <CardServices
-                imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+                imagecardservices={ImageTraumaLi}
                 titleservices="ORTOPEDIA Y/O TRAUMATOLOGÍA"
                 sede="TIERRALTA"
                 imageicon={iconServices}
@@ -75,9 +82,9 @@ export const SedeTierralta = () => {
              </Link>
              </Bounce>
              <Bounce>
-             <Link to="/" className="links">
+             <Link to="/Servicio-PediatriaLo/Pediatria" className="links">
              <CardServices
-                imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+                imagecardservices={ImagePiatriaLi}
                 titleservices="PEDIATRÍA"
                 sede="TIERRALTA"
                 imageicon={iconServices}

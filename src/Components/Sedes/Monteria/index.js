@@ -11,6 +11,10 @@ import { Footer } from '../../Footer';
 import { HiroMain } from '../../HiroMain';
 import Wobble from 'react-reveal/Wobble';
 import Slide from 'react-reveal/Slide';
+import ImageMuestrasLaboMon from '../../../assets/muestras-laboratorios.jpg';
+import ImageTerapiaMon from '../../../assets/terapiaOcupacional.jpg';
+import ImageTerapiaRespiratoria from '../../../assets/img-terapia-respiratoria.jpg';
+
 
 
 export const SedeMonteria = () => {
@@ -31,7 +35,7 @@ export const SedeMonteria = () => {
             <Slide left>
             <Link to="/" className="links">
              <CardServices
-                imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+                imagecardservices={ImageMuestrasLaboMon}
                 titleservices="TOMA DE MUESTRAS DE LABORATORIO CLÍNICO"
                 sede="SEDE MONTERIA"
                 imageicon={iconServices}
@@ -41,7 +45,7 @@ export const SedeMonteria = () => {
             <Slide left>
              <Link to="/Nosotros" className="links">
              <CardServices
-                imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+                imagecardservices={ImageTerapiaMon}
                 titleservices="TERAPIA OCUPACIONAL"
                 sede="SEDE MONTERIA"
                 imageicon={iconMedicinaInterna}
@@ -51,7 +55,7 @@ export const SedeMonteria = () => {
              <Slide left>
              <Link to="/" className="links">
              <CardServices
-                imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+                imagecardservices={ImageTerapiaRespiratoria}
                 titleservices="TERAPIA RESPIRATORIA"
                 sede="SEDE MONTERIA"
                 imageicon={iconAnesteciologia}

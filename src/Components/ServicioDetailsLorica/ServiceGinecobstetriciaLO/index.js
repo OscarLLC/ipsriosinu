@@ -1,7 +1,7 @@
 import React from 'react'
 import { ContentGineco } from './styles'
 import { ModelDetalleServicio } from '../../ModelDetailServices'
-import ImageGineco from '../../../assets/img-ginecologia.jpg'
+import ImageGineco from '../../../assets/imag-ginecolo.jpg'
 
 
 export const ServiceGinecologiaLo = () => {
