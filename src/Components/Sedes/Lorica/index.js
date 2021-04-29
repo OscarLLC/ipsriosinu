@@ -67,7 +67,7 @@ export const SedeLorica = () => {
              </Link>
              </Zoom>
              <Zoom>
-             <Link to="/Servicio-Ginecologia/ServiceGinecologia" className="links">
+             <Link to="/Servicio-OrtopediaTraumatologiaLo/Servicio-OrtopediaTraumatologiaLo" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
                 titleservices="ORTOPEDIA Y/O TRAUMATOLOGÍA"
@@ -77,7 +77,7 @@ export const SedeLorica = () => {
              </Link>
              </Zoom>
              <Zoom>
-             <Link to="/Servicio-Ginecologia/ServiceGinecologiaLo" className="links">
+             <Link to="/Servicio-PediatriaLo/Pediatria" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
                 titleservices="PEDIATRÍA"

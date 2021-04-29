@@ -23,6 +23,10 @@ import { PideTuCita } from '../page/PideTuCita';
 import { ServiceGinecologiaLo } from './ServicioDetailsLorica/ServiceGinecobstetriciaLO';
 import { ServiceCirugiaGeneralLo } from './ServicioDetailsLorica/ServiceCirugiaGeneralLO';
 import { ServiceMedicinaInternaLo } from './ServicioDetailsLorica/ServiceMediciinaInternaLO';
+import { ServiceOrtopediaTraumatologiaLo } from './ServicioDetailsLorica/ServiceOrtopediaOtraumatologiaLO';
+import { ServicePediatriaLo } from './ServicioDetailsLorica/ServicePediatriaLO';
+
+
 
 
 
@@ -51,8 +55,12 @@ function Router() {
                 <Route  path='/CitasWhLorica/:idcitaLorica' component={CitasWhatsappLorica} />
                 <Route  path='/PideTuCita' component={PideTuCita} />
                 <Route  path='/Servicio-GinecologiaLo/:idGINECOBSTETRICIA' component={ServiceGinecologiaLo} />
-                <Route  path='/Servicio-CirugiaGeneralLo/:idGINECOBSTETRICIA' component={ServiceCirugiaGeneralLo} />
-                <Route  path='/Servicio-ServiceMedicinaInternaLo/:idGINECOBSTETRICIA' component={ServiceMedicinaInternaLo} />
+                <Route  path='/Servicio-CirugiaGeneralLo/:idCIRUGIAGENERAL' component={ServiceCirugiaGeneralLo} />
+                <Route  path='/Servicio-ServiceMedicinaInternaLo/:idMEDICINAINTERNA' component={ServiceMedicinaInternaLo} />
+                <Route  path='/Servicio-OrtopediaTraumatologiaLo/:idTRAUMATOLOGIA' component={ServiceOrtopediaTraumatologiaLo} />
+                <Route  path='/Servicio-PediatriaLo/:idPEDIATRIA' component={ServicePediatriaLo} />
+
+
 
 
                 <Route component={Error} />
