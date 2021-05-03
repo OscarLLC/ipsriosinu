@@ -3,23 +3,18 @@ import Navbar from '../../Navbar'
 import { Wrapper } from '../../Wrapper';
 import { ContentSedeLorica } from './styles';
 import { CardServices } from '../../CardServices';
-import iconServices from '../../../assets/icon-externa.png';
+import iconServices from '../../../assets/compress/icon-externa-min.png';
 import { Link } from 'react-router-dom';
 import { Footer } from '../../Footer';
 import { HiroMain } from '../../HiroMain';
 import Jump from 'react-reveal/Jump';
 import Zoom from 'react-reveal/Zoom';
-import ImageServiciosG from '../../../assets/serviciosg.jpg'
-import ImageCirugiaLo from '../../../assets/cirugiaGeneral.jpg';
-import ImageGiinecoLo from '../../../assets/imag-ginecolo.jpg';
-import ImageMedicinaIntLo from '../../../assets/medicenaInterna.jpg';
-import ImageTraumaLo from '../../../assets/img-traumatologia.jpg';
-import ImagePediatriaLo from '../../../assets/img-pediatria.jpg';
-
-
-
-
-
+import ImageServiciosG from '../../../assets/compress/serviciosg-min.jpg';
+import ImageCirugiaLo from '../../../assets/compress/cirugiaGeneral-min.jpg';
+import ImageGiinecoLo from '../../../assets/compress/imag-ginecolo-min.jpg';
+import ImageMedicinaIntLo from '../../../assets/compress/medicenaInterna-min.jpg';
+import ImageTraumaLo from '../../../assets/compress/img-traumatologia-min.jpg';
+import ImagePediatriaLo from '../../../assets/compress/img-pediatria-min.jpg';
 
 
 export const SedeLorica = () => {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import LogoIps from '../../assets/logo-mas.jpeg'
+import LogoIps from '../../assets/compress/logo-mas-min.jpeg'
 import { Link } from 'react-router-dom'
 import { ContentMenu } from './styles'
 import { GlobalStyle } from '../GloblaStyle'

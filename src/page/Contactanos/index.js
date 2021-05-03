@@ -8,7 +8,7 @@ import Credencial from '../../Components/Credencial';
 import Zoom from 'react-reveal/Zoom';
 import Wobble from 'react-reveal/Wobble';
 import { HiroMain } from '../../Components/HiroMain';
-import ImageContactanos from '../../assets/contactanos.jpg';
+import ImageContactanos from '../../assets/compress/contactanos-min.jpg';
 import Slide from 'react-reveal/Slide';
 
 

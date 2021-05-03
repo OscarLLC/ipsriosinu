@@ -1,6 +1,6 @@
 import React from 'react'
 import { ContentWeIps } from './styles'
-import ImageIps from '../../assets/image_ips_rio.png'
+import ImageIps from '../../assets/compress/image_ips_rio-min.png'
 import { Wrapper } from '../Wrapper';
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';

@@ -4,7 +4,7 @@ import { WeDescription } from '../../Components/WeDescription';
 import { Contentwe } from './styles';
 import { Footer } from '../../Components/Footer';
 import { HiroMain } from '../../Components/HiroMain';
-import ImageNosotros from '../../assets/nosotros.jpg';
+import ImageNosotros from '../../assets/compress/nosotros-min.jpg';
 import Slide from 'react-reveal/Slide';
 
 

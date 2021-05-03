@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import { ContentSlider } from './styles'
 import { GlobalStyle } from '../GloblaStyle'
 import ImageComp from '../Banner/ImageSlider'
-import Image1 from '../../assets/img-1.jpg'
-import Image2 from '../../assets/img-2.jpg'
-import Image3 from '../../assets/img-3.jpg'
-import Image4 from '../../assets/img-4.jpg'
+import Image1 from '../../assets/compress/img-1-min.jpg'
+import Image2 from '../../assets/compress/img-2-min.jpg'
+import Image3 from '../../assets/compress/img-3-min.jpg'
+import Image4 from '../../assets/compress/img-4-min.jpg'
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { ContentPideTuCita } from './styles';
 import  Nabvar  from '../../Components/Navbar';
 import { HiroMain } from '../../Components/HiroMain';
-import ImagePideTuCita from '../../assets/pedir-cita.jpg'
+import ImagePideTuCita from '../../assets/compress/pedir-cita-min.jpg'
 import { Wrapper } from '../../Components/Wrapper';
 import { TextMain } from '../../Components/TextMain';
 import { Link } from 'react-router-dom';

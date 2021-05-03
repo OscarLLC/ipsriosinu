@@ -3,17 +3,18 @@ import Navbar from '../../Navbar'
 import { Wrapper } from '../../Wrapper';
 import { ContentSedeMontelibano } from './styles';
 import { CardServices } from '../../CardServices';
-import iconServices from '../../../assets/icon-externa.png';
+import iconServices from '../../../assets/compress/icon-externa-min.png';
 import { Link } from 'react-router-dom';
 import { Footer } from '../../Footer';
 import { HiroMain } from '../../HiroMain';
 import Tada from 'react-reveal/Tada';
 import Slide from 'react-reveal/Slide';
-import ImageCirugiaGMl from '../../../assets/cirugiaGeneral.jpg';
-import ImageGinecoMl from '../../../assets/imag-ginecolo.jpg';
-import ImageMedicinaIntMl from '../../../assets/medicenaInterna.jpg';
-import ImageTraumaMl from '../../../assets/img-traumatologia.jpg';
-import ImagePediatriaMl from '../../../assets/img-pediatria.jpg';
+import ImageServiciosMon from '../../../assets/compress/serviciosg-min.jpg';
+import ImageCirugiaGMl from '../../../assets/compress/cirugiaGeneral-min.jpg';
+import ImageGinecoMl from '../../../assets/compress/imag-ginecolo-min.jpg';
+import ImageMedicinaIntMl from '../../../assets/compress/medicenaInterna-min.jpg';
+import ImageTraumaMl from '../../../assets/compress/img-traumatologia-min.jpg';
+import ImagePediatriaMl from '../../../assets/compress/img-pediatria-min.jpg';
 
 
 
@@ -25,7 +26,7 @@ export const SedeMontelibano = () => {
             <Wrapper>
             <HiroMain
                 title="SERVICIOS MONTELIBANO"
-                ImagesHiroMain="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                ImagesHiroMain={ImageServiciosMon}
              />
              <Tada>
               <div className="content-text-title">

@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from '../../assets/logo-mas.jpeg';
-import PersonCalll from '../../assets/person-call.png';
+import Logo from '../../assets/compress/logo-mas-min.jpeg';
+import PersonCalll from '../../assets/compress/person-call-min.png';
 import { ContentPost } from './styles';
 import Roll from 'react-reveal/Roll';
 

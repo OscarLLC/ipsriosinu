@@ -11,9 +11,10 @@ import { Footer } from '../../Footer';
 import { HiroMain } from '../../HiroMain';
 import Wobble from 'react-reveal/Wobble';
 import Slide from 'react-reveal/Slide';
-import ImageMuestrasLaboMon from '../../../assets/muestras-laboratorios.jpg';
-import ImageTerapiaMon from '../../../assets/terapiaOcupacional.jpg';
-import ImageTerapiaRespiratoria from '../../../assets/img-terapia-respiratoria.jpg';
+import ImageServiciosMonter from '../../../assets/compress/serviciosg-min.jpg';
+import ImageMuestrasLaboMon from '../../../assets/compress/muestras-laboratorios-min.jpg';
+import ImageTerapiaMon from '../../../assets/compress/terapiaOcupacional-min.jpg';
+import ImageTerapiaRespiratoria from '../../../assets/compress/img-terapia-respiratoria-min.jpg';
 
 
 
@@ -23,7 +24,7 @@ export const SedeMonteria = () => {
             <Navbar />
             <HiroMain
                 title="SERVICIOS MONTERIA"
-                ImagesHiroMain="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                ImagesHiroMain={ImageServiciosMonter}
              />
             <Wrapper>
             <Wobble>
