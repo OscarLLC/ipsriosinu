@@ -19,6 +19,8 @@ import { SedeTierralta } from '../Components/Sedes/Tierralta';
 import { SedeMontelibano } from '../Components/Sedes/Montelibano';
 import { CitasWhatsapp } from '../page/Citas-whatsapp';
 import { CitasWhatsappLorica } from '../page/Citas-whatsappL/index';
+import { CitasWhatsappMontelibano } from '../page/Citas-whatsappMontelibano/index';
+import { CitasWhatsappTierralta } from '../page/Citas-whatsappTierralta/index';
 import { PideTuCita } from '../page/PideTuCita';
 import { ServiceGinecologiaLo } from './ServicioDetailsLorica/ServiceGinecobstetriciaLO';
 import { ServiceCirugiaGeneralLo } from './ServicioDetailsLorica/ServiceCirugiaGeneralLO';
@@ -53,6 +55,8 @@ function Router() {
                 <Route  path='/Smontelibano/:idmontelibano' component={SedeMontelibano} />
                 <Route  path='/CitasWhMonteria/:idcitamonteria' component={CitasWhatsapp} />
                 <Route  path='/CitasWhLorica/:idcitaLorica' component={CitasWhatsappLorica} />
+                <Route  path='/CitasWhMontelibano/:idmontelibano' component={CitasWhatsappMontelibano} />
+                <Route  path='/CitasWhTierralta/:idtierralta' component={CitasWhatsappTierralta} />
                 <Route  path='/PideTuCita' component={PideTuCita} />
                 <Route  path='/Servicio-GinecologiaLo/:idGINECOBSTETRICIA' component={ServiceGinecologiaLo} />
                 <Route  path='/Servicio-CirugiaGeneralLo/:idCIRUGIAGENERAL' component={ServiceCirugiaGeneralLo} />

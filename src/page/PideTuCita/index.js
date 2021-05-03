@@ -50,7 +50,7 @@ export const PideTuCita = () => {
                     email="ipsriosinulorica@gmail.com"
                 />
             </Link>
-            <Link to="/" className="links-wh">
+            <Link to="CitasWhMontelibano/Montelibano" className="links-wh">
                  <PostContact 
                     title="AGENDA TU CITA MONTELIBANO"
                     titlecall="LLAMA A NUESTRA LINEA"
@@ -58,7 +58,7 @@ export const PideTuCita = () => {
                     email="ipsriosinumontelibano@gmail.com"
                 />
             </Link>
-            <Link to="/" className="links-wh">
+            <Link to="CitasWhTierralta/Tierralta" className="links-wh">
                  <PostContact 
                     title="AGENDA TU CITA TIERRALTA"
                     titlecall="LLAMA A NUESTRA LINEA"

@@ -31,7 +31,7 @@ export const Servicios = () => {
             <Slide left>
                <Link to="Smonteria/Monteria" className="links">
                 <CardSede 
-                titleSede="Monteria"
+                titleSede="MONTERIA"
                 ImageSede={ImageSede} 
                 />
                </Link>

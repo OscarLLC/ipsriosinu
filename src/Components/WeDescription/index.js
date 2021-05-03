@@ -1,21 +1,21 @@
 import React from 'react'
 import { ContentWD } from './styles'
-import Bounce from 'react-reveal/Bounce';
+import Slide from 'react-reveal/Slide';
 
 export const WeDescription = () => {
     return(
         <ContentWD>
-            <Bounce left>
+            <Slide left>
             <div className="text-main-descriptionm">
                 <p>En IPS RIO SINU, nos comprometemos a prestar servicios de atención
                     especializada con calidad basados en el mejoramiento continuo, cumpliendo 
                     atributos de seguridad oportunidad, humanismo y una atención satisfactoria.
                 </p>
             </div>
-            </Bounce>
+            </Slide>
 
             
-            <Bounce left>
+            <Slide left>
                 <div className="text-main-description">
                 <div className="text-main-description-valores">
                     <h2>Mision</h2>
@@ -29,8 +29,8 @@ export const WeDescription = () => {
                         </p>
                 </div>
             </div>
-                </Bounce>
-                <Bounce right>
+                </Slide>
+                <Slide right>
                 <div className="text-main-description">
                     <h2>Vision</h2>
                         <p>
@@ -40,9 +40,9 @@ export const WeDescription = () => {
                         estándares de calidad, crecimiento integral y en servicios complementarios.
                         </p>
                 </div>
-                </Bounce>
+                </Slide>
 
-                <Bounce right>
+                <Slide right>
                 <div className="text-main-description">
                     <h2>Nuestros Valores</h2>
                        <ul>
@@ -52,7 +52,7 @@ export const WeDescription = () => {
                            <li>Puntualidad</li>
                        </ul>
                 </div>
-                </Bounce>
+                </Slide>
         </ContentWD>
     )
 }

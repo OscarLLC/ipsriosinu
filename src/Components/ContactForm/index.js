@@ -26,9 +26,6 @@ export default function ContactUs(){
         
         return(
             <ContainerForm>
-                
-    
-            
             <div className="content-main-form">
                 <Fade right>
                 <div className="sub-form">

@@ -22,37 +22,37 @@ class FormWhMonteriaC extends Component{
 
     render(){
         return(
-            <ContainerForm>
-                    <div className="content-main-form">
-                        <div className="sub-form">
-                            <form onSubmit={this.enviarData} className="form">
-                                <div className="sub-title-form">
-                                    <p>AGENDA TU CITA MONTERIA</p>
+            <ContainerForm>              
+                <div className="content-main-form">
+                    <div className="sub-form">
+                        <form onSubmit={this.enviarData} className="form">
+                            <div className="sub-title-form">
+                                <p>AGENDA TU CITA MONTERIA</p>
+                            </div>
+                            <div className="sud-sub-input-ones">
+                                <div className="content-inputs-one">
+                                    <label>Nombres: </label><br />
+                                    <input ref={this.nombreMRRef} required type="text" className="inputs-one"  type="text" /><br />
                                 </div>
-                                <div className="sud-sub-input-ones">
-                                    <div className="content-inputs-one">
-                                        <label>Nombres: </label><br />
-                                        <input ref={this.nombreMRRef} required type="text" className="inputs-one"  type="text" /><br />
-                                    </div>
-                                    <div className="content-inputs-one">
-                                        <label>Apellidos: </label><br />
-                                        <input ref={this.apellidoMRRef} required type="text" className="inputs-one two"  type="text" />
-                                    </div>
+                                <div className="content-inputs-one">
+                                    <label>Apellidos: </label><br />
+                                    <input ref={this.apellidoMRRef} required type="text" className="inputs-one two"  type="text" />
                                 </div>
-                                <div className="conten-input-phone">
-                                    <label>Celular: </label><br />
-                                    <input ref={this.celularMRRef} required type="number" className="input-celular" />
-                                </div>
-                                <div className="text-tarea">
-                                    <label>Mensaje: </label><br />
-                                    <textarea ref={this.mensajeMRRef} required className="campu-description" ></textarea> 
-                                </div>
-                                <div className="content-button-submit">
-                                    <button className="enviarCita">Enviar</button>
-                                </div>
-                            </form>
-                        </div>
+                            </div>
+                            <div className="conten-input-phone">
+                                <label>Celular: </label><br />
+                                <input ref={this.celularMRRef} required type="number" className="input-celular" />
+                            </div>
+                            <div className="text-tarea">
+                                <label>Mensaje: </label><br />
+                                <textarea ref={this.mensajeMRRef} required className="campu-description" ></textarea> 
+                            </div>
+                            <div className="content-button-submit">
+                                <button className="enviarCita">Enviar</button>
+                            </div>
+                        </form>
                     </div>
+                </div>
             </ContainerForm>
         )
     }

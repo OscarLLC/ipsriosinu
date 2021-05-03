@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ContainerFormlorica = styled.section`
+export const ContainerFormMonba = styled.section`
     background-color: white;
     padding-bottom: 70px;
 .content-main-form{
