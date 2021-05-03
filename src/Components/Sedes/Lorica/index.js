@@ -15,6 +15,8 @@ import ImageGiinecoLo from '../../../assets/compress/imag-ginecolo-min.jpg';
 import ImageMedicinaIntLo from '../../../assets/compress/medicenaInterna-min.jpg';
 import ImageTraumaLo from '../../../assets/compress/img-traumatologia-min.jpg';
 import ImagePediatriaLo from '../../../assets/compress/img-pediatria-min.jpg';
+import ImageUrologiaLo from '../../../assets/compress/urologia-min.jpg';
+
 
 
 export const SedeLorica = () => {
@@ -53,14 +55,14 @@ export const SedeLorica = () => {
              </Link>
              </Zoom>
              <Zoom>
-             {/* <Link to="/" className="links">
+             <Link to="/Servicio-Urologia/Servicio-Urologia" className="links">
              <CardServices
-                imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
-                titleservices="MEDICINA GENERAL"
+                imagecardservices={ImageUrologiaLo}
+                titleservices="UROLOGIA"
                 sede="SEDE LORICA"
                 imageicon={iconServices}
              />
-             </Link> */}
+             </Link>
              </Zoom>
              <Zoom>
              <Link to="/Servicio-ServiceMedicinaInternaLo/Servicio-MedicinaInternaLo" className="links">

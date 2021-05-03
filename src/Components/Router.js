@@ -26,6 +26,7 @@ import { ServiceGinecologiaLo } from './ServicioDetailsLorica/ServiceGinecobstet
 import { ServiceCirugiaGeneralLo } from './ServicioDetailsLorica/ServiceCirugiaGeneralLO';
 import { ServiceMedicinaInternaLo } from './ServicioDetailsLorica/ServiceMediciinaInternaLO';
 import { ServiceOrtopediaTraumatologiaLo } from './ServicioDetailsLorica/ServiceOrtopediaOtraumatologiaLO';
+import { ServiceUrologiaLO } from './ServicioDetailsLorica/ServiceUrologiaLO';
 import { ServicePediatriaLo } from './ServicioDetailsLorica/ServicePediatriaLO';
 
 
@@ -62,6 +63,7 @@ function Router() {
                 <Route  path='/Servicio-CirugiaGeneralLo/:idCIRUGIAGENERAL' component={ServiceCirugiaGeneralLo} />
                 <Route  path='/Servicio-ServiceMedicinaInternaLo/:idMEDICINAINTERNA' component={ServiceMedicinaInternaLo} />
                 <Route  path='/Servicio-OrtopediaTraumatologiaLo/:idTRAUMATOLOGIA' component={ServiceOrtopediaTraumatologiaLo} />
+                <Route  path='/Servicio-Urologia/:idUROLOGIA' component={ServiceUrologiaLO} />
                 <Route  path='/Servicio-PediatriaLo/:idPEDIATRIA' component={ServicePediatriaLo} />
 
 
