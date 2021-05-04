@@ -7,7 +7,7 @@ export const CardServices = (props) => {
         <ContentCardServices>
             <div className="container-services">
                 <div className="image-services">
-                    <img className="image-services" src={props.imagecardservices} />
+                    <img className="image-services" alt="image-services" src={props.imagecardservices} />
                 </div>
                 <div className="content-hiroservices">
                     <div className="sub-text-services">
@@ -15,7 +15,7 @@ export const CardServices = (props) => {
                         <h5>{props.sede}</h5>
                     </div>
                     <div>
-                        <img className="icono" src={props.imageicon} />
+                        <img className="icono" alt="image-icon" src={props.imageicon} />
                     </div>
                 </div>
                 <div className="description-services">

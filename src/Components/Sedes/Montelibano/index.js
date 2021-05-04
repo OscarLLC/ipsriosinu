@@ -3,19 +3,11 @@ import Navbar from '../../Navbar'
 import { Wrapper } from '../../Wrapper';
 import { ContentSedeMontelibano } from './styles';
 import { CardServices } from '../../CardServices';
-import iconServices from '../../../assets/compress/icon-externa-min.png';
 import { Link } from 'react-router-dom';
 import { Footer } from '../../Footer';
 import { HiroMain } from '../../HiroMain';
 import Tada from 'react-reveal/Tada';
 import Slide from 'react-reveal/Slide';
-import ImageServiciosMon from '../../../assets/compress/serviciosg-min.jpg';
-import ImageCirugiaGMl from '../../../assets/compress/cirugiaGeneral-min.jpg';
-import ImageGinecoMl from '../../../assets/compress/imag-ginecolo-min.jpg';
-import ImageMedicinaIntMl from '../../../assets/compress/medicenaInterna-min.jpg';
-import ImageTraumaMl from '../../../assets/compress/img-traumatologia-min.jpg';
-import ImagePediatriaMl from '../../../assets/compress/img-pediatria-min.jpg';
-
 
 
 
@@ -26,7 +18,7 @@ export const SedeMontelibano = () => {
             <Wrapper>
             <HiroMain
                 title="SERVICIOS MONTELIBANO"
-                ImagesHiroMain={ImageServiciosMon}
+                ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133512/IPS_RIO_SINU/serviciosg-min_ih5dng.jpg"
              />
              <Tada>
               <div className="content-text-title">
@@ -37,20 +29,20 @@ export const SedeMontelibano = () => {
             <Slide right>
             <Link to="/Servicio-CirugiaGeneralLo/ServiceCirugiaGeneral" className="links">
              <CardServices
-                imagecardservices={ImageCirugiaGMl}
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133508/IPS_RIO_SINU/cirugiaGeneral-min_rspd01.jpg"
                 titleservices="CIRUGÍA GENERAL"
                 sede="SEDE MONTELIBANO"
-                imageicon={iconServices}
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
              />
              </Link>
              </Slide>
             <Slide right>
              <Link to="/Servicio-GinecologiaLo/ServiceGinecologia" className="links">
              <CardServices
-                imagecardservices={ImageGinecoMl}
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133507/IPS_RIO_SINU/imag-ginecolo-min_s3lykn.jpg"
                 titleservices="GINECOBSTETRICIA"
                 sede="SEDE MONTELIBANO"
-                imageicon={iconServices}
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
              />
              </Link>
              </Slide>
@@ -67,30 +59,30 @@ export const SedeMontelibano = () => {
              <Slide right>
              <Link to="/Servicio-ServiceMedicinaInternaLo/Servicio-MedicinaInternaLo" className="links">
              <CardServices
-                imagecardservices={ImageMedicinaIntMl}
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133510/IPS_RIO_SINU/medicenaInterna-min_f2zvla.jpg"
                 titleservices="MEDICINA INTERNA"
                 sede="SEDE MONTELIBANO"
-                imageicon={iconServices}
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
              />
              </Link>
              </Slide>
              <Slide right>
              <Link to="/Servicio-OrtopediaTraumatologiaLo/Servicio-OrtopediaTraumatologiaLo" className="links">
              <CardServices
-                imagecardservices={ImageTraumaMl}
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133509/IPS_RIO_SINU/img-traumatologia-min_ly5nzr.jpg"
                 titleservices="ORTOPEDIA Y/O TRAUMATOLOGÍA"
                 sede="SEDE MONTELIBANO"
-                imageicon={iconServices}
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
              />
              </Link>
              </Slide>
              <Slide right>
              <Link to="/Servicio-PediatriaLo/Pediatria" className="links">
              <CardServices
-                imagecardservices={ImagePediatriaMl}
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133510/IPS_RIO_SINU/img-pediatria-min_gincvy.jpg"
                 titleservices="PEDIATRÍA"
                 sede="SEDE MONTELIBANO"
-                imageicon={iconServices}
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
              />
              </Link>
              </Slide>

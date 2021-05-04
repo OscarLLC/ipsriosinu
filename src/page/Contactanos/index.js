@@ -8,7 +8,6 @@ import Credencial from '../../Components/Credencial';
 import Zoom from 'react-reveal/Zoom';
 import Wobble from 'react-reveal/Wobble';
 import { HiroMain } from '../../Components/HiroMain';
-import ImageContactanos from '../../assets/compress/contactanos-min.jpg';
 import Slide from 'react-reveal/Slide';
 
 
@@ -21,7 +20,7 @@ export const Contactanos = (props) => {
             <Slide right>
            <HiroMain 
             title="CONTÁCTANOS"
-            ImagesHiroMain={ImageContactanos}
+            ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/contactanos-min_ruzi5k.jpg"
            />
            </Slide>
             <ContactUs />

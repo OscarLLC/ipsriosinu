@@ -11,7 +11,7 @@ export const CardSede = (props) => {
                 <h1>{props.titleSede}</h1>
                 </div>
                 <picture>
-                <img className="image-sede" src={props.ImageSede} />
+                <img className="image-sede" alt="image-sede" src={props.ImageSede} />
                 </picture>
             </div>
         </ContentCardSede>

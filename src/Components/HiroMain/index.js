@@ -13,7 +13,7 @@ export const HiroMain = (props) => {
                     <h1 className="text-services">{props.title}</h1>
                 </div>
                 </Wobble>
-                    <img className="image-hiromain" src={props.ImagesHiroMain} />
+                    <img className="image-hiromain" alt="image-hiro-main" src={props.ImagesHiroMain} />
                 </div>
            </div>
         </ContentHiriMain>

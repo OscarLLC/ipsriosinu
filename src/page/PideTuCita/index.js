@@ -2,7 +2,6 @@ import React from 'react';
 import { ContentPideTuCita } from './styles';
 import  Nabvar  from '../../Components/Navbar';
 import { HiroMain } from '../../Components/HiroMain';
-import ImagePideTuCita from '../../assets/compress/pedir-cita-min.jpg'
 import { Wrapper } from '../../Components/Wrapper';
 import { TextMain } from '../../Components/TextMain';
 import { Link } from 'react-router-dom';
@@ -17,7 +16,7 @@ export const PideTuCita = () => {
             <Slide right>
             <HiroMain 
                 title="PIDE TU CITA AQUI"
-                ImagesHiroMain={ImagePideTuCita}
+                ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133511/IPS_RIO_SINU/pedir-cita-min_kx5zcy.jpg"
             />
             </Slide>
             <div className="content-pide-tu-cita">

@@ -1,7 +1,6 @@
 import React from 'react'
 import { ContentUrologia } from './styles'
 import { ModelDetalleServicio } from '../../ModelDetailServices'
-import ImageUrologia from '../../../assets/compress/urologia-min.jpg'
 
 
 export const ServiceUrologiaLO = () => {
@@ -21,7 +20,7 @@ export const ServiceUrologiaLO = () => {
                 la primera mamografía de base se suele pedir a los 35,‏ en pacientes con antecedentes familiares los controles mamarios empiezan antes,
                 La forma de la panza no permite inferir de ninguna manera si es nena, varón o si lo va a decidir solita más adelante,
                 tomar gaseosas mientras amamantamos no le produce gases al bebé."
-                imageDetailService={ImageUrologia}
+                imageDetailService="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133518/IPS_RIO_SINU/urologia-min_umgkew.jpg"
                 />
             </div>
         </ContentUrologia>

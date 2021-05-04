@@ -2,7 +2,7 @@ import React from 'react';
 import { Wrapper } from '../Wrapper';
 import { ContentHiro } from './styles';
 import Zoom from 'react-reveal/Zoom';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 
 

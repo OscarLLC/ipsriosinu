@@ -3,17 +3,11 @@ import Navbar from '../../Navbar'
 import { Wrapper } from '../../Wrapper';
 import { ContentSedeTierralta } from './styles';
 import { CardServices } from '../../CardServices';
-import iconServices from '../../../assets/icon-externa.png';
 import { Link } from 'react-router-dom';
 import { Footer } from '../../Footer';
 import { HiroMain } from '../../HiroMain';
 import Bounce from 'react-reveal/Bounce';
 import LightSpeed from 'react-reveal/LightSpeed';
-import ImageCiruGTi from '../../../assets/cirugiaGeneral.jpg';
-import ImageGinecoTi from '../../../assets/imag-ginecolo.jpg';
-import ImageMedicinaIntTi from '../../../assets/medicenaInterna.jpg';
-import ImageTraumaLi from '../../../assets/img-traumatologia.jpg';
-import ImagePiatriaLi from '../../../assets/img-pediatria.jpg';
 
 
 
@@ -24,7 +18,7 @@ export const SedeTierralta = () => {
             <Wrapper>
             <HiroMain
                 title="SERVICIOS TIERRALTA"
-                ImagesHiroMain="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133512/IPS_RIO_SINU/serviciosg-min_ih5dng.jpg"
              />
              <LightSpeed right></LightSpeed>
               <div className="content-text-title">
@@ -34,20 +28,20 @@ export const SedeTierralta = () => {
                 <Bounce>
             <Link to="/Servicio-CirugiaGeneralLo/ServiceCirugiaGeneral" className="links">
              <CardServices
-                imagecardservices={ImageCiruGTi}
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133508/IPS_RIO_SINU/cirugiaGeneral-min_rspd01.jpg"
                 titleservices="CIRUGÍA GENERAL"
                 sede="TIERRALTA"
-                imageicon={iconServices}
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
              />
              </Link>
              </Bounce>
              <Bounce>
              <Link to="/Servicio-GinecologiaLo/ServiceGinecologia" className="links">
              <CardServices
-                imagecardservices={ImageGinecoTi}
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133507/IPS_RIO_SINU/imag-ginecolo-min_s3lykn.jpg"
                 titleservices="GINECOBSTETRICIA"
                 sede="TIERRALTA"
-                imageicon={iconServices}
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
              />
              </Link>
              </Bounce>
@@ -64,30 +58,30 @@ export const SedeTierralta = () => {
              <Bounce>
              <Link to="/Servicio-ServiceMedicinaInternaLo/Servicio-MedicinaInternaLo" className="links">
              <CardServices
-                imagecardservices={ImageMedicinaIntTi}
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133510/IPS_RIO_SINU/medicenaInterna-min_f2zvla.jpg"
                 titleservices="MEDICINA INTERNA"
                 sede="TIERRALTA"
-                imageicon={iconServices}
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
              />
              </Link>
              </Bounce>
              <Bounce>
              <Link to="/Servicio-OrtopediaTraumatologiaLo/Servicio-OrtopediaTraumatologiaLo" className="links">
              <CardServices
-                imagecardservices={ImageTraumaLi}
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133509/IPS_RIO_SINU/img-traumatologia-min_ly5nzr.jpg"
                 titleservices="ORTOPEDIA Y/O TRAUMATOLOGÍA"
                 sede="TIERRALTA"
-                imageicon={iconServices}
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
              />
              </Link>
              </Bounce>
              <Bounce>
              <Link to="/Servicio-PediatriaLo/Pediatria" className="links">
              <CardServices
-                imagecardservices={ImagePiatriaLi}
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133510/IPS_RIO_SINU/img-pediatria-min_gincvy.jpg"
                 titleservices="PEDIATRÍA"
                 sede="TIERRALTA"
-                imageicon={iconServices}
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
              />
              </Link>
              </Bounce>

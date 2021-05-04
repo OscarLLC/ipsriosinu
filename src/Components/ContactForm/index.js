@@ -1,6 +1,6 @@
 import emailjs from 'emailjs-com'; 
 import React, { useState }  from 'react';
-import ModalForm from '../ModalForm'
+import ModalForm from '../ModalForm';
 import { ContainerForm } from './styles';
 import Fade from 'react-reveal/Fade';
 

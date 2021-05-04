@@ -1,7 +1,7 @@
 import React from 'react'
 import { ContentGineco } from './styles'
 import { ModelDetalleServicio } from '../../ModelDetailServices'
-import ImageGineco from '../../../assets/compress/cirugiaGeneral-min.jpg'
+
 
 
 export const ServiceCirugiaGeneralLo = () => {
@@ -20,7 +20,7 @@ export const ServiceCirugiaGeneralLo = () => {
                 la primera mamografía de base se suele pedir a los 35,‏ en pacientes con antecedentes familiares los controles mamarios empiezan antes,
                 La forma de la panza no permite inferir de ninguna manera si es nena, varón o si lo va a decidir solita más adelante,
                 tomar gaseosas mientras amamantamos no le produce gases al bebé."
-                imageDetailService={ImageGineco}
+                imageDetailService="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133508/IPS_RIO_SINU/cirugiaGeneral-min_rspd01.jpg"
                 />
             </div>
         </ContentGineco>

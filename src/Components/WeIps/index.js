@@ -1,6 +1,5 @@
 import React from 'react'
 import { ContentWeIps } from './styles'
-import ImageIps from '../../assets/compress/image_ips_rio-min.png'
 import { Wrapper } from '../Wrapper';
 import Slide from 'react-reveal/Slide';
 import RubberBand from 'react-reveal/RubberBand';
@@ -38,7 +37,7 @@ export const WeIps = () => {
             <Slide right>
             <div className="image-weips">
                 <picture>
-                <img alt="image-ips-rio" className="image-ips-rio" src={ImageIps}  />
+                <img alt="image-ips-rio" className="image-ips-rio" src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133508/IPS_RIO_SINU/image_ips_rio-min_qlr3kw.png"  />
                 </picture>
             </div>
             </Slide>

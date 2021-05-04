@@ -4,8 +4,7 @@ import Navbar from '../../Components/Navbar';
 import { HiroMain } from '../../Components/HiroMain';
 import { Wrapper } from '../../Components/Wrapper';
 import { CardSede } from '../../Components/CardSede';
-import  ImageSede from '../../assets/sede.png'
-import { Footer } from '../../Components/Footer'
+import { Footer } from '../../Components/Footer';
 import { Link } from 'react-router-dom';
 import Slide from 'react-reveal/Slide';
 
@@ -32,7 +31,7 @@ export const Servicios = () => {
                <Link to="Smonteria/Monteria" className="links">
                 <CardSede 
                 titleSede="MONTERIA"
-                ImageSede={ImageSede} 
+                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133511/IPS_RIO_SINU/sede-min_kx3rpc.png" 
                 />
                </Link>
                </Slide>
@@ -40,7 +39,7 @@ export const Servicios = () => {
                <Link to="Slorica/Lorica" className="links">
                  <CardSede 
                 titleSede="LORICA"
-                ImageSede={ImageSede} 
+                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133511/IPS_RIO_SINU/sede-min_kx3rpc.png"
                 />
                 </Link>
                 </Slide>
@@ -48,7 +47,7 @@ export const Servicios = () => {
                <Link to="Stierralta/Tierralta" className="links">
                  <CardSede 
                 titleSede="TIERRALTA"
-                ImageSede={ImageSede} 
+                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133511/IPS_RIO_SINU/sede-min_kx3rpc.png" 
                 />
                 </Link>
                 </Slide>
@@ -56,7 +55,7 @@ export const Servicios = () => {
                <Link to="Smontelibano/Montelibano" className="links">
                  <CardSede 
                 titleSede="MONTELIBANO"
-                ImageSede={ImageSede} 
+                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133511/IPS_RIO_SINU/sede-min_kx3rpc.png"
                 />
                 </Link>
                 </Slide>

@@ -2,10 +2,6 @@ import React, { useState } from 'react'
 import { ContentSlider } from './styles'
 import { GlobalStyle } from '../GloblaStyle'
 import ImageComp from '../Banner/ImageSlider'
-import Image1 from '../../assets/compress/img-1-min.jpg'
-import Image2 from '../../assets/compress/img-2-min.jpg'
-import Image3 from '../../assets/compress/img-3-min.jpg'
-import Image4 from '../../assets/compress/img-4-min.jpg'
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 
@@ -13,10 +9,10 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 function Slider() {
   //create an array for component to showinside the slide
   let sliderArra = [
-  <ImageComp src={Image1} />,
-  <ImageComp src={Image2} />,
-  <ImageComp src={Image3} />,
-  <ImageComp src={Image4} />
+  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133507/IPS_RIO_SINU/img-1-min_mosxfc.jpg"  />,
+  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133506/IPS_RIO_SINU/img-2-min_hlrns5.jpg" />,
+  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133507/IPS_RIO_SINU/img-3-min_alvyuj.jpg" />,
+  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133508/IPS_RIO_SINU/img-4-min_ylslop.jpg" />
 ];
   const [x, setX] = useState(0);
   const goLeft = () => {
