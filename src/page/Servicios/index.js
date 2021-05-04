@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom';
 import Slide from 'react-reveal/Slide';
 
 
-
 export const Servicios = () => {
     return(
         <ContentServices>
