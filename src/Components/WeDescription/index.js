@@ -8,17 +8,16 @@ export const WeDescription = () => {
             <Slide left>
             <div className="text-main-descriptionm">
                 <p>En IPS RIO SINU, nos comprometemos a prestar servicios de atención
-                    especializada con calidad basados en el mejoramiento continuo, cumpliendo 
+                    especializada con  calidad basados en el mejoramiento continuo, cumpliendo 
                     atributos de seguridad oportunidad, humanismo y una atención satisfactoria.
                 </p>
             </div>
             </Slide>
-
             
             <Slide left>
                 <div className="text-main-description">
                 <div className="text-main-description-valores">
-                    <h2>Mision</h2>
+                    <h2>MISION</h2>
                         <p>
                         En <strong>CENTRO DE ESPECIALISTAS RIO SINU</strong>, brindamos servicios
                         de consultas médicas integrales y multidisciplinarias con 
@@ -32,7 +31,7 @@ export const WeDescription = () => {
                 </Slide>
                 <Slide right>
                 <div className="text-main-description">
-                    <h2>Vision</h2>
+                    <h2>VISION</h2>
                         <p>
                         El CENTRO DE ESPECIALISTAS RIO SINU será en 2025 reconocido a nival regional 
                         como centro de referencia en consultas médica integrales y multidisciplinarias, 
@@ -44,12 +43,27 @@ export const WeDescription = () => {
 
                 <Slide right>
                 <div className="text-main-description">
-                    <h2>Nuestros Valores</h2>
+                    <h2>VALORES CORPORATIVOS</h2>
+                    <p>RIO SINU IPS Tendrá Como Valores De Su Institución Los Siguientes:</p>
+                    <br />
+                       <p><strong>COMPROMISO:</strong>Brindar un servicio excelente priorizando las necesidades de los pacientes y usuarios.</p>
+                       <p><strong>RESPONSABILIDAD:</strong>brindar y hacer sentir al paciente y usuarios, un servicio de salud seguro.</p>
+                       <p><strong>RESPETO:</strong>Trato profesional al interior de la institución es humano y ético para todos los pacientes y usuarios en general.</p>
+                       <p><strong>AMOR:</strong>Nuestros profesionales están impulsados por el amor a la salud y la pasión.</p>
+                       <p><strong>SOLIDARIDAD:</strong>Nuestros profesionales son solidarios con las condiciones sociales de los pacientes y usuarios</p>
+                       <p><strong>EQUIDAD:</strong>Brindamos servicios sin distinción de condición socioeconómica, credo y propiciamos inclusión.</p>
+                </div>
+                </Slide>
+
+                <Slide right>
+                <div className="text-main-description">
+                    <h2>PRINCIPIOS COORPORATIVOS</h2>
                        <ul>
-                           <li>Respeto</li>
-                           <li>Trabajo En Equipo</li>
-                           <li>Honestidad</li>
-                           <li>Puntualidad</li>
+                           <li>Liderazgo</li>
+                           <li>Enfoque al usuario</li>
+                           <li>Humanización del servicio</li>
+                           <li>Participación del personal</li>
+                           <li>Integridad</li>    
                        </ul>
                 </div>
                 </Slide>
