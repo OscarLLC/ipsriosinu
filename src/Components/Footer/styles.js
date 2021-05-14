@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
  export const ContentFooter = styled.section`
     width: 100%;
-    height: 245px;
+    height: 280px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,13 +12,15 @@ import styled from 'styled-components'
         display:block;
         text-align: center;
         width: 100%;
-        height: 350px;
+        height: 420px;
        
     }
 
     .sub-footer{
-        padding: 0 25px;
+        padding: 10px 25px;
+        
        width: 55%;
+       text-align: center;
        @media(max-width: 1000px){
            width:100%;
            text-align: -webkit-center;
@@ -71,5 +73,23 @@ import styled from 'styled-components'
     .sub-redes:hover{
         background-color: #8795bf;
         cursor: pointer;
+    }
+
+    .supersalud{
+        width: 180px;
+
+    }
+
+    .todo_salud{
+        width: 150px;
+        @media(max-width: 500px){
+            width: 110px;
+        }
+    }
+
+    .conten_salud{
+        display: flex;
+       justify-content: center;
+       align-items: center;
     }
  `

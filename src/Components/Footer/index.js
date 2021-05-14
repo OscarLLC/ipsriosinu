@@ -5,6 +5,9 @@ import { AiOutlineInstagram,
          AiOutlineYoutube,
          AiOutlineFacebook } from "react-icons/ai";
 import Fade from 'react-reveal/Fade';
+import superSa from '../../assets/supersaludpng.png'
+import todoSalud from '../../assets/todos_salud.png'
+
 
 export const Footer = () => {
     return(
@@ -29,6 +32,11 @@ export const Footer = () => {
                 <p className="text-footer"><strong> Telefonos: 314 814 08 38 <br /> Fax: 314 814 08 38</strong></p>
                 <p className="text-footer">Correo:ipsriosinu@gmail.com</p><br />
                 <p className="text-footer">© Copyright 2021 – Todos los derechos reservados</p>
+                <div className="conten_salud">
+                <img className="supersalud" src={superSa} alt="super_salud" />
+                <img className="todo_salud" src={todoSalud} alt="todos_Salud" />
+
+                </div>
             </div>
             </Fade>
         </ContentFooter>
