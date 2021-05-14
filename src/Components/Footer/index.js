@@ -6,9 +6,6 @@ import { AiOutlineInstagram,
          AiOutlineFacebook } from "react-icons/ai";
 import Fade from 'react-reveal/Fade';
 
-
-
-
 export const Footer = () => {
     return(
         <ContentFooter>
@@ -28,10 +25,10 @@ export const Footer = () => {
                 </div>
             </div>
             <div className="sub-footer">
-                <p className="text-footer">© Copyright 2021 – Todos los derechos reservados</p><br />
                 <p className="text-footer">CR 7 No 35-43 BARRIO LA CEIBA <br /> MONTERIA-CORDOBA</p><br />
                 <p className="text-footer"><strong> Telefonos: 314 814 08 38 <br /> Fax: 314 814 08 38</strong></p>
-                <p className="text-footer">Correo:ipsriosinu@gmail.com</p>
+                <p className="text-footer">Correo:ipsriosinu@gmail.com</p><br />
+                <p className="text-footer">© Copyright 2021 – Todos los derechos reservados</p>
             </div>
             </Fade>
         </ContentFooter>
