@@ -3,19 +3,11 @@ import Navbar from '../../Navbar'
 import { Wrapper } from '../../Wrapper';
 import { ContentVenues } from './styles';
 import { CardServices } from '../../CardServices';
-import iconServices from '../../../assets/icon-externa.png';
-import iconMedicinaInterna from '../../../assets/icon-medicina-interna.png';
-import iconAnesteciologia from '../../../assets/icon-anesteciologia.png';
 import { Link } from 'react-router-dom';
 import { Footer } from '../../Footer';
 import { HiroMain } from '../../HiroMain';
 import Wobble from 'react-reveal/Wobble';
 import Slide from 'react-reveal/Slide';
-import ImageServiciosMonter from '../../../assets/compress/serviciosg-min.jpg';
-import ImageMuestrasLaboMon from '../../../assets/compress/muestras-laboratorios-min.jpg';
-import ImageTerapiaMon from '../../../assets/compress/terapiaOcupacional-min.jpg';
-import ImageTerapiaRespiratoria from '../../../assets/compress/img-terapia-respiratoria-min.jpg';
-
 
 
 export const SedeMonteria = () => {
@@ -24,7 +16,7 @@ export const SedeMonteria = () => {
             <Navbar />
             <HiroMain
                 title="SERVICIOS MONTERIA"
-                ImagesHiroMain={ImageServiciosMonter}
+                ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091300/IPS_RIO_SINU/serviciosg-min_v0nerd.jpg"
              />
             <Wrapper>
             <Wobble>
@@ -36,7 +28,7 @@ export const SedeMonteria = () => {
             <Slide left>
             <Link to="/" className="links">
              <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133513/IPS_RIO_SINU/muestras-laboratorios-min_z7yf0y.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091302/IPS_RIO_SINU/muestras-laboratorios-min_p6e5xk.jpg"
                 titleservices="TOMA DE MUESTRAS DE LABORATORIO CLÍNICO"
                 sede="SEDE MONTERIA"
                 imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
@@ -46,7 +38,7 @@ export const SedeMonteria = () => {
             <Slide left>
              <Link to="/Nosotros" className="links">
              <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133512/IPS_RIO_SINU/terapiaOcupacional-min_o52luc.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091302/IPS_RIO_SINU/terapiaOcupacional-min_kane9y.jpg"
                 titleservices="TERAPIA OCUPACIONAL"
                 sede="SEDE MONTERIA"
                 imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
@@ -56,7 +48,7 @@ export const SedeMonteria = () => {
              <Slide left>
              <Link to="/" className="links">
              <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133510/IPS_RIO_SINU/img-terapia-respiratoria-min_xingo5.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091298/IPS_RIO_SINU/img-terapia-respiratoria-min_adgso6.jpg"
                 titleservices="TERAPIA RESPIRATORIA"
                 sede="SEDE MONTERIA"
                 imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
@@ -66,7 +58,7 @@ export const SedeMonteria = () => {
              <Slide left>
              <Link to="/" className="links">
              <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620143690/IPS_RIO_SINU/img-fisioterapia-min_rdxo2s.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091299/IPS_RIO_SINU/img-fisioterapia-min_id6aak.jpg"
                 titleservices="FISIOTERAPIA"
                 sede="SEDE MONTERIA"
                 imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
@@ -76,7 +68,7 @@ export const SedeMonteria = () => {
              <Slide left>
              <Link to="/" className="links">
               <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620143689/IPS_RIO_SINU/img-fonoaudiologia-min_sjnwt3.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091298/IPS_RIO_SINU/img-fonoaudiologia-min_kih7iv.jpg"
                 titleservices="FONOAUDIOLOGÍA Y/O TERAPIA DEL LENGUAJE"
                 sede="SEDE MONTERIA"
                 imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
@@ -86,7 +78,7 @@ export const SedeMonteria = () => {
              <Slide left>
              <Link to="/" className="links">
               <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620143690/IPS_RIO_SINU/img-anaestesia-min_ywa6xt.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091297/IPS_RIO_SINU/img-anaestesia-min_xuqxh1.jpg"
                 titleservices="ANESTESIA"
                 sede="SEDE MONTERIA"
                 imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
@@ -96,7 +88,7 @@ export const SedeMonteria = () => {
              <Slide left>
              <Link to="/" className="links">
               <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620143692/IPS_RIO_SINU/img-cardiologia-min_f24taa.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091298/IPS_RIO_SINU/img-cardiologia-min_aoyhlc.jpg"
                 titleservices="CARDIOLOGÍA"
                 sede="SEDE MONTERIA"
                 imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
@@ -116,7 +108,7 @@ export const SedeMonteria = () => {
              <Slide left>
              <Link to="/Sede/Monteria" className="links">
               <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620143692/IPS_RIO_SINU/img-cirugia.pediatrica-min_a8bdmc.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091298/IPS_RIO_SINU/img-cirugia.pediatrica-min_ztzfph.jpg"
                 titleservices="CIRUGÍA PEDIÁTRICA"
                 sede="SEDE MONTERIA"
                 imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"

@@ -9,10 +9,10 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 function Slider() {
   //create an array for component to showinside the slide
   let sliderArra = [
-  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133507/IPS_RIO_SINU/img-1-min_mosxfc.jpg"  />,
-  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133506/IPS_RIO_SINU/img-2-min_hlrns5.jpg" />,
-  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133507/IPS_RIO_SINU/img-3-min_alvyuj.jpg" />,
-  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133508/IPS_RIO_SINU/img-4-min_ylslop.jpg" />
+  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091296/IPS_RIO_SINU/img-1-min_dittbw.jpg"  />,
+  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091296/IPS_RIO_SINU/img-2-min_jbld7a.jpg" />,
+  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091296/IPS_RIO_SINU/img-3-min_ov5ig4.jpg" />,
+  <ImageComp src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091296/IPS_RIO_SINU/img-4-min_g5tky8.jpg" />
 ];
   const [x, setX] = useState(0);
   const goLeft = () => {

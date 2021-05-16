@@ -9,14 +9,14 @@ export const PostContact = (props) => {
             <Roll left>
             <div className="sub-car">
             <div className="content-image-main">
-                <img alt="image-logo" src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133509/IPS_RIO_SINU/logo-mas-min_npfz0x.jpg" className="logo" />
+                <img alt="image-logo" src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091298/IPS_RIO_SINU/logo-mas-min_w9iupz.jpg" className="logo" />
             </div>
             <div className="content-description">
                 <div className="text-main">
                     <h1>{props.title}</h1>
                 </div>
                 <div>
-                    <img alt="image-person" src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133511/IPS_RIO_SINU/person-call-min_uugipv.png" className="phone" />
+                    <img alt="image-person" src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091300/IPS_RIO_SINU/person-call-min_paq1eu.png" className="phone" />
                 </div>
             </div>
                 <div className="footer">

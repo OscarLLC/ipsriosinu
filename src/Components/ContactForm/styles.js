@@ -7,11 +7,11 @@ export const ContainerForm = styled.section`
 .content-main-form{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
     .sub-form{
         background-color: #007d87;
-        margin-top: 80px;
+        margin-top: 20px;
         width: 60%;
         padding: 15px;
         display: flex;

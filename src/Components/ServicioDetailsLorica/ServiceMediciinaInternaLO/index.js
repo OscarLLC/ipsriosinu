@@ -20,7 +20,7 @@ export const ServiceMedicinaInternaLo = () => {
                 la primera mamografía de base se suele pedir a los 35,‏ en pacientes con antecedentes familiares los controles mamarios empiezan antes,
                 La forma de la panza no permite inferir de ninguna manera si es nena, varón o si lo va a decidir solita más adelante,
                 tomar gaseosas mientras amamantamos no le produce gases al bebé."
-                imageDetailService="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133510/IPS_RIO_SINU/medicenaInterna-min_f2zvla.jpg"
+                imageDetailService="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091300/IPS_RIO_SINU/medicenaInterna-min_waq4qv.jpg"
                 />
             </div>
         </ContentGineco>

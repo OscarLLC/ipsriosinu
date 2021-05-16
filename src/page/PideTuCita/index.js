@@ -16,7 +16,7 @@ export const PideTuCita = () => {
             <Slide right>
             <HiroMain 
                 title="PIDE TU CITA AQUI"
-                ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133511/IPS_RIO_SINU/pedir-cita-min_kx5zcy.jpg"
+                ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091299/IPS_RIO_SINU/pedir-cita-min_uwwfoz.jpg"
             />
             </Slide>
             <div className="content-pide-tu-cita">

@@ -23,7 +23,7 @@ class Navbar extends Component{
                 <ContentMenu>
                     <nav className="navbarItems subItems.active">
                         <div>
-                            <img className="navbarlogo" src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133509/IPS_RIO_SINU/logo-mas-min_npfz0x.jpg" alt="LogoIpsRio" />
+                            <img className="navbarlogo" src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091298/IPS_RIO_SINU/logo-mas-min_w9iupz.jpg" alt="LogoIpsRio" />
                         </div>
                         <div className="menu-icon" onClick={this.handleClick}>
                             <i className="icon-menu">

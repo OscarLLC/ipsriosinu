@@ -3,7 +3,7 @@ import React, { useState }  from 'react';
 import ModalForm from '../ModalForm';
 import { ContainerForm } from './styles';
 import Fade from 'react-reveal/Fade';
-
+import { Wrapper } from '../Wrapper'
 
 export default function ContactUs(){
         function sendEmail(e) {
@@ -26,6 +26,9 @@ export default function ContactUs(){
         
         return(
             <ContainerForm>
+                <Wrapper>
+                    <p>Comunicate con nosotros sera un gusto poderte ayudar.</p>
+                </Wrapper>
             <div className="content-main-form">
                 <Fade right>
                 <div className="sub-form">

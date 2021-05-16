@@ -17,7 +17,7 @@ export const SedeLorica = () => {
             <Wrapper>
             <HiroMain
                 title="SERVICIOS LORICA"
-                ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133512/IPS_RIO_SINU/serviciosg-min_ih5dng.jpg"
+                ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091300/IPS_RIO_SINU/serviciosg-min_v0nerd.jpg"
              />
              <Jump>
             <div className="content-text-title">
@@ -28,60 +28,60 @@ export const SedeLorica = () => {
             <Zoom>
             <Link to="/Servicio-CirugiaGeneralLo/ServiceCirugiaGeneral" className="links">
              <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133508/IPS_RIO_SINU/cirugiaGeneral-min_rspd01.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091301/IPS_RIO_SINU/cirugiaGeneral-min_rishha.jpg"
                 titleservices="CIRUGÍA GENERAL"
                 sede="SEDE LORICA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Zoom>
             <Zoom>
              <Link to="/Servicio-GinecologiaLo/ServiceGinecologia" className="links">
              <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133507/IPS_RIO_SINU/imag-ginecolo-min_s3lykn.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091296/IPS_RIO_SINU/imag-ginecolo-min_h22cgd.jpg"
                 titleservices="GINECOBSTETRICIA"
                 sede="SEDE LORICA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Zoom>
-             <Zoom>
+             <Zoom>  
              <Link to="/Servicio-Urologia/Servicio-Urologia" className="links">
              <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133518/IPS_RIO_SINU/urologia-min_umgkew.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091304/IPS_RIO_SINU/urologia-min_eohows.jpg"
                 titleservices="UROLOGIA"
                 sede="SEDE LORICA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Zoom>
              <Zoom>
              <Link to="/Servicio-ServiceMedicinaInternaLo/Servicio-MedicinaInternaLo" className="links">
              <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133510/IPS_RIO_SINU/medicenaInterna-min_f2zvla.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091300/IPS_RIO_SINU/medicenaInterna-min_waq4qv.jpg"
                 titleservices="MEDICINA INTERNA"
                 sede="SEDE LORICA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Zoom>
              <Zoom>
              <Link to="/Servicio-OrtopediaTraumatologiaLo/Servicio-OrtopediaTraumatologiaLo" className="links">
              <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133509/IPS_RIO_SINU/img-traumatologia-min_ly5nzr.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091299/IPS_RIO_SINU/img-traumatologia-min_lsfupy.jpg"
                 titleservices="ORTOPEDIA Y/O TRAUMATOLOGÍA"
                 sede="SEDE LORICA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
-             />
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
+             />   
              </Link>
              </Zoom>
              <Zoom>
              <Link to="/Servicio-PediatriaLo/Pediatria" className="links">
              <CardServices
-                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133510/IPS_RIO_SINU/img-pediatria-min_gincvy.jpg"
+                imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091300/IPS_RIO_SINU/img-pediatria-min_h7b9yb.jpg"
                 titleservices="PEDIATRÍA"
                 sede="SEDE LORICA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Zoom>

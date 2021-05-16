@@ -14,7 +14,7 @@ export const Nosotros = () => {
             <Slide left>
             <HiroMain 
                 title="NOSOTROS"
-                ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620912893/IPS_RIO_SINU/Felices_Enfermeras_Y_M%C3%A9dicos_En_El_Hospital-min_eof7lk.jpg"
+                ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091302/IPS_RIO_SINU/Felices_Enfermeras_Y_M%C3%A9dicos_En_El_Hospital-min_doxfwb.jpg"
             />
             </Slide>
             <WeDescription />

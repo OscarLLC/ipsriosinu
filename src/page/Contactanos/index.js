@@ -20,7 +20,7 @@ export const Contactanos = (props) => {
             <Slide right>
            <HiroMain 
             title="CONTÁCTANOS"
-            ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/contactanos-min_ruzi5k.jpg"
+            ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091301/IPS_RIO_SINU/contactanos-min_m19ebe.jpg"
            />
            </Slide>
             <ContactUs />

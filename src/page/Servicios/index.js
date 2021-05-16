@@ -16,7 +16,7 @@ export const Servicios = () => {
                <Slide top>
                <HiroMain 
                   title="RED - SERVICIOS"
-                  ImagesHiroMain="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  ImagesHiroMain="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091300/IPS_RIO_SINU/serviciosg-min_v0nerd.jpg"
                />
             </Slide>
              <Wrapper>
@@ -30,7 +30,7 @@ export const Servicios = () => {
                <Link to="Smonteria/Monteria" className="links">
                 <CardSede 
                 titleSede="MONTERIA"
-                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133511/IPS_RIO_SINU/sede-min_kx3rpc.png" 
+                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091300/IPS_RIO_SINU/sede-min_g7xu63.png" 
                 />
                </Link>
                </Slide>
@@ -38,7 +38,7 @@ export const Servicios = () => {
                <Link to="Slorica/Lorica" className="links">
                  <CardSede 
                 titleSede="LORICA"
-                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133511/IPS_RIO_SINU/sede-min_kx3rpc.png"
+                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091300/IPS_RIO_SINU/sede-min_g7xu63.png"
                 />
                 </Link>
                 </Slide>
@@ -46,7 +46,7 @@ export const Servicios = () => {
                <Link to="Stierralta/Tierralta" className="links">
                  <CardSede 
                 titleSede="TIERRALTA"
-                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133511/IPS_RIO_SINU/sede-min_kx3rpc.png" 
+                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091300/IPS_RIO_SINU/sede-min_g7xu63.png" 
                 />
                 </Link>
                 </Slide>
@@ -54,7 +54,7 @@ export const Servicios = () => {
                <Link to="Smontelibano/Montelibano" className="links">
                  <CardSede 
                 titleSede="MONTELIBANO"
-                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133511/IPS_RIO_SINU/sede-min_kx3rpc.png"
+                ImageSede="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091300/IPS_RIO_SINU/sede-min_g7xu63.png"
                 />
                 </Link>
                 </Slide>

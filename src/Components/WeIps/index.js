@@ -37,7 +37,7 @@ export const WeIps = () => {
             <Slide right>
             <div className="image-weips">
                 <picture>
-                <img alt="image-ips-rio" className="image-ips-rio" src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133508/IPS_RIO_SINU/image_ips_rio-min_qlr3kw.png"  />
+                <img alt="image-ips-rio" className="image-ips-rio" src="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091297/IPS_RIO_SINU/image_ips_rio-min_ti2b4e.png"  />
                 </picture>
             </div>
             </Slide>
