@@ -28,10 +28,7 @@ import { ServiceMedicinaInternaLo } from './ServicioDetailsLorica/ServiceMedicii
 import { ServiceOrtopediaTraumatologiaLo } from './ServicioDetailsLorica/ServiceOrtopediaOtraumatologiaLO';
 import { ServiceUrologiaLO } from './ServicioDetailsLorica/ServiceUrologiaLO';
 import { ServicePediatriaLo } from './ServicioDetailsLorica/ServicePediatriaLO';
-
-
-
-
+import Noticias from '../Components/Noticias'
 
 
 function Router() {
@@ -40,6 +37,7 @@ function Router() {
             <Switch>
                 <Route exact path='/' component={App} />
                 <Route  path='/NavbarLogo' component={NavbarLogo} />
+                <Route path="/Noticias" component={Noticias} />
                 <Route  path='/Slider' component={Slider} />
                 <Route  path='/Hiro' component={Hiro} />
                 <Route  path='/WeIps' component={WeIps} />
@@ -65,10 +63,6 @@ function Router() {
                 <Route  path='/Servicio-OrtopediaTraumatologiaLo/:idTRAUMATOLOGIA' component={ServiceOrtopediaTraumatologiaLo} />
                 <Route  path='/Servicio-Urologia/:idUROLOGIA' component={ServiceUrologiaLO} />
                 <Route  path='/Servicio-PediatriaLo/:idPEDIATRIA' component={ServicePediatriaLo} />
-
-
-
-
                 <Route component={Error} />
             </Switch>
         </BrowserRouter>

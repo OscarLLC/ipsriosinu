@@ -31,7 +31,7 @@ export const SedeMonteria = () => {
                 imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091302/IPS_RIO_SINU/muestras-laboratorios-min_p6e5xk.jpg"
                 titleservices="TOMA DE MUESTRAS DE LABORATORIO CLÍNICO"
                 sede="SEDE MONTERIA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Slide>
@@ -41,7 +41,7 @@ export const SedeMonteria = () => {
                 imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091302/IPS_RIO_SINU/terapiaOcupacional-min_kane9y.jpg"
                 titleservices="TERAPIA OCUPACIONAL"
                 sede="SEDE MONTERIA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Slide>
@@ -51,7 +51,7 @@ export const SedeMonteria = () => {
                 imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091298/IPS_RIO_SINU/img-terapia-respiratoria-min_adgso6.jpg"
                 titleservices="TERAPIA RESPIRATORIA"
                 sede="SEDE MONTERIA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Slide>
@@ -61,7 +61,7 @@ export const SedeMonteria = () => {
                 imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091299/IPS_RIO_SINU/img-fisioterapia-min_id6aak.jpg"
                 titleservices="FISIOTERAPIA"
                 sede="SEDE MONTERIA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Slide>
@@ -71,7 +71,7 @@ export const SedeMonteria = () => {
                 imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091298/IPS_RIO_SINU/img-fonoaudiologia-min_kih7iv.jpg"
                 titleservices="FONOAUDIOLOGÍA Y/O TERAPIA DEL LENGUAJE"
                 sede="SEDE MONTERIA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Slide>
@@ -81,7 +81,7 @@ export const SedeMonteria = () => {
                 imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091297/IPS_RIO_SINU/img-anaestesia-min_xuqxh1.jpg"
                 titleservices="ANESTESIA"
                 sede="SEDE MONTERIA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Slide>
@@ -91,7 +91,7 @@ export const SedeMonteria = () => {
                 imagecardservices="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091298/IPS_RIO_SINU/img-cardiologia-min_aoyhlc.jpg"
                 titleservices="CARDIOLOGÍA"
                 sede="SEDE MONTERIA"
-                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
+                imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1621091295/IPS_RIO_SINU/icon-externa-min_szaeu5.png"
              />
              </Link>
              </Slide>
@@ -239,7 +239,7 @@ export const SedeMonteria = () => {
              <Link to="/" className="links">
              <CardServices
                 imagecardservices="https://images.unsplash.com/photo-1605160535972-4827e620991e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
-                titleservices="ORTOPEDIA Y/O TRAUMATOLOGÍA  "
+                titleservices="ORTOPEDIA Y/O TRAUMATOLOGÍA"
                 sede="SEDE MONTERIA"
                 imageicon="https://res.cloudinary.com/ips-rio-sinu/image/upload/v1620133505/IPS_RIO_SINU/icon-externa-min_dvxfme.png"
              />
