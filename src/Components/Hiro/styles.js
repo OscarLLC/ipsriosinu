@@ -16,7 +16,7 @@ export const ContentHiro = styled.section`
         align-items: center;
         justify-content: center;
         /* background-color: #26b4c0; */
-        /**esto lo ahgo para dejar subir a keroku ok **/
+        /**esto lo ahgo para dejar subir a keroku ok mas  **/
         background-color: #ff0080;
         text-align: center;
         cursor: pointer;
