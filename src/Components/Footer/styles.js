@@ -6,7 +6,8 @@ import styled from 'styled-components'
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f1f2f5;
+    /* background-color: #f1f2f5;*/
+     background-color: #ff0080; 
     margin-top: 50px;
     @media(max-width: 1000px){
         display:block;

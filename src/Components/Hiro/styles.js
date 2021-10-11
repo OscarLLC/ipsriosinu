@@ -15,7 +15,8 @@ export const ContentHiro = styled.section`
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #26b4c0;
+        /* background-color: #26b4c0; */
+        background-color: #ff0080;
         text-align: center;
         cursor: pointer;
         border-radius: 10px;
