@@ -16,7 +16,7 @@ export const ContentHiro = styled.section`
         align-items: center;
         justify-content: center;
         /* background-color: #26b4c0; */
-        /**esto lo ahgo para dejar subir a lxxxxcddddcclllddlkeroku ok mas  d
+        /**esto lo ahgo para dejxxxar subir a lxxxxcddddcclllddlkeroku ok mas  d
         d
         d
         dd
