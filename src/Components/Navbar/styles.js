@@ -71,6 +71,7 @@ export const ContentMenu = styled.nav`
 
 .subItems.active{
     /* background-color: #26b4c0; */
+    /* hddsddgv */
     background-color: #ff0080;
     height: 100vh;
     left: 0;
