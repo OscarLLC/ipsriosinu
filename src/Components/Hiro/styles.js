@@ -14,8 +14,9 @@ export const ContentHiro = styled.section`
         margin: 20px;
         display: flex;
         align-items: center;
+        /****fidufufuiregfiergiu*/
         justify-content: center;
-        /* background-colorsssss: #26b4c0; */
+        /* background-colorsssss: xxx#26b4c0; */
         /**esto lo ahgo para dejxxxar subir a lxxxxcddddcclllddlkeroku ok mas  d
         d
         d
